@@ -21,7 +21,7 @@ I am a researcher in the Inria team Makutu. My research focuses on numerical asp
 
 
 
-I am also a member of [Modartt](modartt.com) company.
+I am also a member of [Modartt](http://www.modartt.com) company.
 
 <!--
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
