@@ -1,16 +1,16 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Imperiale":
+  - firstname: ["Sébastien", "S."]
+    url: https://m3disim.saclay.inria.fr/people/sebastien-imperiale/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Ernoult":
+  - firstname: ["Augustin", "A."]
+    url: https://team.inria.fr/magique3d/fr/team-members/augustin-ernoult/
 
 "Rosen":
   - firstname: ["Nathan", "N."]
     url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-"Bach": 
+"Bach":
   - firstname: ["Johann Sebastian", "J. S."]
     url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
