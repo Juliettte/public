@@ -1,5 +1,5 @@
 "Imperiale":
-  - firstname: ["Sébastien", "S."]
+  - firstname: ["Sébastien", "Sebastien", "S."]
     url: https://m3disim.saclay.inria.fr/people/sebastien-imperiale/
 
 "Ernoult":
@@ -13,6 +13,14 @@
 "Rodriguez":
   - firstname: ["Samuel", "S."]
     url: https://www.i2m.u-bordeaux.fr/en/Research/Physical-Acoustics
+
+"Duruflé":
+  - firstname: ["Marc", "M."]
+    url: https://www.math.u-bordeaux.fr/~durufle/index.php
+
+"Tournemenne":
+  - firstname: ["Robin", "R."]
+    url: https://fr.linkedin.com/in/robin-tournemenne
 
 "Bach":
   - firstname: ["Johann Sebastian", "J. S."]
