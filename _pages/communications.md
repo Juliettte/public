@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /communication/
-title: communication
+permalink: /communications/
+title: communications
 description: A selected list of my communications.
 nav: true
 ---
