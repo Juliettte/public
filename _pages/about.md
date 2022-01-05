@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Makutu team, Inria.
+subtitle: Makutu team, Inria.
 
 profile:
   align: right
