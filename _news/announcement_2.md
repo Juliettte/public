@@ -1,11 +1,11 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Internship positions are available, contact us before 31/01
+date: 2020-12-10
 inline: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+Makutu is looking for two interns for next summer to work on wind instruments and on the piano bridge. 
 
 ***
 
