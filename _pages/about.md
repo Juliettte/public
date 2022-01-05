@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Makutu team, Inria.
+subtitle: Makutu research team, Inria.
 
 profile:
   align: right
