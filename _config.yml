@@ -12,10 +12,9 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: musical acoustics, numerical analysis, computational acoustics  # add your own keywords or leave empty
 
-lang: en,fr # the language of your site (for example: en, fr, cn, ru, etc.)
+lang: en, fr # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔥 # the emoji used as the favicon
 url: https://juliettte.github.io # the base hostname & protocol for your site
 baseurl: /public # the subpath of your site, e.g. /blog/
@@ -85,7 +84,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 blog_name: Focus  # your blog must have a name for it to show up in the nav bar
 blog_description: Some detailed focuses on selected works
-permalink: /blog/:year/:title/
+permalink: /focus/:year/:title/
 
 # Pagination
 pagination:
