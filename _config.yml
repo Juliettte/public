@@ -192,9 +192,9 @@ jekyll-archives:
     tag: archive-tag
     category: archive-category
   permalinks:
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
+    year: '/focus/:year/'
+    tag: '/focus/tag/:name/'
+    category: '/focus/category/:name/'
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
