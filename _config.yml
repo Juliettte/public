@@ -83,7 +83,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # -----------------------------------------------------------------------------
 
 blog_name: Focus  # your blog must have a name for it to show up in the nav bar
-blog_description: Some detailed focuses on selected works
+blog_description: on selected works
 permalink: /focus/:year/:title/
 
 # Pagination
