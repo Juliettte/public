@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Alexis Thibault
+description: porosity and rugosity in wind instruments
+img: assets/img/14.jpg
 importance: 1
-category: work
+category: phdthesis
 ---
 
 Every project has a beautiful feature showcase page.
