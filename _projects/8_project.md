@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pafi : next version
+title: Pafi
 description: the next version of the platform for acoustic computation of wind instruments
 img: assets/img/13.jpg
 importance: 3
