@@ -28,7 +28,6 @@ In the GDS [EcoInfo](https://ecoinfo.cnrs.fr), I try to better understand the en
 
 I also like to play the baroque oboe with the [Ensemble Les Précieuses](https://ensemblelesprecieuses.fr), the Ensemble Maddalena and others, to sing in the choir [Orfeo](https://ensembleorfeo.fr) and to listen to [J. S. Bach](https://en.wikipedia.org/wiki/Johann_Sebastian_Bach) wonderful work.
 
-maj pour rien
 
 <!--
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
