@@ -17,7 +17,7 @@
 "Chaigne":
   - firstname: ["Antoine", "A."]
     url: https://sites.google.com/view/achaigne-homepage/home-page
-        
+
 "Humeau":
   - firstname: ["Augustin", "A."]
     url: https://www.humeaufactory.com
@@ -33,7 +33,10 @@
 "Tournemenne":
   - firstname: ["Robin", "R."]
     url: https://fr.linkedin.com/in/robin-tournemenne
-
+"Hélie":
+  - firstname: ["Thomas","T."]
+    url: https://fr.linkedin.com/in/thomas-helie-2a536a58
+  
 "Bach":
   - firstname: ["Johann Sebastian", "J. S."]
     url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
