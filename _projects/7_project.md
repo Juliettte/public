@@ -5,7 +5,7 @@ description: a python toolbox assisting wind instrument makers
 img: assets/img/7.jpg
 redirect: https://openwind.inria.fr
 importance: 1
-category: musical-acoustics
+category: musicalacoustics
 ---
 
 <!-- https://openwind.inria.fr/files/2021/09/openwind-statique.png-->
