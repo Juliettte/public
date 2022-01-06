@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Internship positions are available, contact us before 31/01
-date: 2021-01-31
+date: 2020-12-10
 inline: false
 ---
 
