@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
+title: Sysimpa
+description: a collaboration around Besson trumpets with ITEMM, Cité de la Musique and C2RMF.
 img: assets/img/7.jpg
-redirect: https://unsplash.com
+redirect: https://itemm.fr/itemm/tag/sysimpa/
 importance: 3
-category: work
+category: musicalacoustics
 ---
 
 Every project has a beautiful feature showcase page.

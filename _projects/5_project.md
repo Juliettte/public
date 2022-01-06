@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: Louis 14.0
+description: a journey between music, theater and science
 img: assets/img/1.jpg
 importance: 3
-category: fun
+category: dissemination
 ---
 
 Every project has a beautiful feature showcase page.
