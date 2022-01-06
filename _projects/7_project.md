@@ -2,13 +2,13 @@
 layout: page
 title: Openwind
 description: a python toolbox assisting wind instrument makers
-img: assets/img/7.jpg
+img: https://openwind.inria.fr/files/2021/09/openwind-statique.png
 redirect: https://openwind.inria.fr
 importance: 1
 category: musicalacoustics
 ---
 
-<!-- https://openwind.inria.fr/files/2021/09/openwind-statique.png-->
+<!-- -->
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
