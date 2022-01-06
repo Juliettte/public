@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Louis 14.0
-description: a journey between music, theater and science
-img: https://project.inria.fr/louis14point0/files/2020/05/Capture-d’écran-2020-05-07-à-15.00.42-150x150.png
-redirect: https://project.inria.fr/louis14point0/
+title: Pafi : next version
+description: the next version of the platform for acoustic computation of wind instruments
+img: assets/img/13.jpg
 importance: 3
-category: dissemination
+category: musicalacoustics
 ---
+
+<!-- -->
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
