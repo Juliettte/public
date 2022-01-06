@@ -11,13 +11,14 @@ profile:
     <p>Inria Bordeaux Sud Ouest</p>
     <p>200 Av. de la vieille Tour</p>
     <p>33405 TALENCE CEDEX, FRANCE</p>
+    <p> Tel: +33 (0)5 24 57 40 45 </p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a researcher in the Inria team [Makutu](https://team.inria.fr/makutu/). My research focuses on numerical aspects wave propagation, more specifically applied to musical instruments. This axis of the team is located in Talence, France.
+I am a researcher in the Inria team [Makutu](https://team.inria.fr/makutu/). My research focuses on numerical aspects of wave propagation, more specifically applied to musical instruments. This axis of the team is located in Talence, France.
 
 I am a member of the [SCRIME](https://scrime.u-bordeaux.fr) where scientists can meet composers and musicians to achieve joint projects.
 
