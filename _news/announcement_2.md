@@ -1,12 +1,29 @@
 ---
 layout: post
 title: Internship positions are available, contact us before 31/01
-date: 2020-12-10
+date: 2021-01-31
 inline: false
 ---
 
-Makutu is looking for two interns for next summer to work on wind instruments and on the piano bridge. 
+Makutu is looking for two interns for next summer to work on wind instruments and on the piano bridge.
 
+<div class="grid-item">
+  <a href="http://www.google.fr">
+    <div class="card hoverable">      
+        {%- include figure.html
+          path="assets/img/12.jpg"
+          alt="project thumbnail" -%}
+      <div class="card-body">
+        <h2 class="card-title text-lowercase">First internship</h2>
+        <p class="card-text">Une petite description</p>
+        <div class="row ml-1 mr-1 p-0">          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+<!--
 ***
 
 Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
@@ -29,3 +46,4 @@ Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxide
 > —Anais Nin
 
 Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+-->
