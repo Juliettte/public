@@ -17,11 +17,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a researcher in the Inria team Makutu. My research focuses on numerical aspects wave propagation, more specifically applied to musical instruments.
+I am a researcher in the Inria team [Makutu](https://team.inria.fr/makutu/). My research focuses on numerical aspects wave propagation, more specifically applied to musical instruments. This axis of the team is located in Talence, France.
 
+I am a member of the [SCRIME](https://scrime.u-bordeaux.fr) where scientists can meet composers and musicians to achieve joint projects.
 
-
-I am also a member of [Modartt](http://www.modartt.com) company.
+As a member of [Modartt](http://www.modartt.com) company, I help develop new instruments for real time synthesis.
 
 <!--
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
