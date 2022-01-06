@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Guillaume Castera
-description: modeling the piano touch. Co-advised by Paul Fisette, UC Louvain, Belgique. 
-img: assets/img/3.jpg
+description: modeling the piano touch. Co-advised by Paul Fisette, UC Louvain, Belgique.
+img: assets/img/15.jpg
 importance: 1
 category: phdthesis
 ---
