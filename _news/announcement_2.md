@@ -7,20 +7,13 @@ inline: false
 
 Makutu is looking for two interns for next summer to work on wind instruments and on the piano bridge.
 
-<div class="grid-item">
-  <a href="http://www.google.fr">
-    <div class="card hoverable">      
-        {%- include figure.html
-          path="assets/img/12.jpg"
-          alt="project thumbnail" -%}
-      <div class="card-body">
-        <h2 class="card-title text-lowercase">First internship</h2>
-        <p class="card-text">Une petite description</p>
-        <div class="row ml-1 mr-1 p-0">          
-        </div>
-      </div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
-  </a>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 
 <!--
