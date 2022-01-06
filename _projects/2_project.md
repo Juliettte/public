@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: Guillaume Castera
+description: modeling the piano touch. Co-advised by Paul Fisette, UC Louvain, Belgique. 
 img: assets/img/3.jpg
-importance: 2
-category: work
+importance: 1
+category: phdthesis
 ---
 
 Every project has a beautiful feature showcase page.

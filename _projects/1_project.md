@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Alexis Thibault
-description: porosity and rugosity in wind instruments
+description: porosity and rugosity in wind instruments. Co-advised by Thomas Hélie and Henri Boutin, IRCAM. 
 img: assets/img/14.jpg
 importance: 1
 category: phdthesis
