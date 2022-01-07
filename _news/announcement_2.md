@@ -5,7 +5,11 @@ date: 2020-12-10
 inline: false
 ---
 
-Makutu is looking for two interns for next summer to work on wind instruments and on the piano bridge. 
+Makutu is looking for two interns for next summer to work on [wind instruments](http://juliettechabassier.perso.math.cnrs.fr/partage/sujets/StageMAKUTU-NL.pdf) and on the [piano bridge](http://juliettechabassier.perso.math.cnrs.fr/partage/sujets/StageMAKUTU-piano.pdf) (descriptions only available in french).
+
+
+<!--
+
 
 ***
 
@@ -29,3 +33,6 @@ Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxide
 > —Anais Nin
 
 Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+
+
+-->
