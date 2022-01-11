@@ -48,3 +48,15 @@
 "Gizon":
   - firstname: ["Laurent","L."]
     url: http://www2.mps.mpg.de/homes/gizon/
+
+"Bank":
+  - firstname: ["Balazs","B."]
+    url: http://home.mit.bme.hu/~bank/
+
+"P{\'e}ron":
+  - firstname: ["Victor","V."]
+    url: https://lma-umr5142.univ-pau.fr/fr/organisation/membres/cv_-vperon-fr.html
+
+"Legu{\`e}be":
+  - firstname: ["Michael","M"]
+        url: https://people.bordeaux.inria.fr/michael.leguebe/index.html
