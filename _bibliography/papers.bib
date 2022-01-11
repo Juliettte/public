@@ -304,6 +304,7 @@
 
 @article{bank:hal-01894219,
   TITLE = {{Model-based digital pianos: from physics to sound synthesis}},
+  ABSTRACT = {As a result of their complexity and versatility, pianos are arguably one of the most important instruments in Western music. The size, weight, and price of grand pianos as well as their relatively simple control surface (i.e., the keyboard), have led to the development of digital counterparts that mimic the sound of acoustic pianos as closely as possible. While most commercial digital pianos are based on sample playback, it is also possible to reproduce a piano's sound by modeling the physics of the instrument. The process of physical modeling starts with first understanding the physical principles, followed by creating accurate numerical models, and finally, finding numerically optimized signal processing models that allow sound synthesis in real time by excluding inaudible phenomena and adding some perceptually important features by using signal processing tricks. Accurate numerical models can be used by physicists and engineers to understand how the instrument functions or to help piano makers with instrument development. On the other hand, efficient real-time models are geared toward composers and musicians who perform at home or onstage. This article provides an overview of a physics-based piano synthesis beginning with computationally heavy, physically accurate approach followed by a discussion of the approaches that are designed to produce the best possible sound quality for real-time synthesis.},
   AUTHOR = {Bank, Balazs and Chabassier, Juliette},
   URL = {https://hal.inria.fr/hal-01894219},
   JOURNAL = {{IEEE Signal Processing Magazine}},
@@ -311,8 +312,8 @@
   VOLUME = {36},
   NUMBER = {1},
   PAGES = {11},
-  YEAR = {2018},
-  MONTH = Dec,
+  YEAR = {2019},
+  MONTH = Jan,
   DOI = {10.1109/MSP.2018.2872349},
   PDF = {https://hal.inria.fr/hal-01894219/file/hal.pdf},
   HAL_ID = {hal-01894219},
@@ -646,6 +647,9 @@
 @article{chabassier:hal-02320521,
   TITLE = {{Equivalent boundary conditions for acoustic media with exponential densities. Application to the atmosphere in helioseismology}},
   AUTHOR = {Chabassier, Juliette and Durufl{\'e}, Marc and P{\'e}ron, Victor},
+  ABSTRACT = {We present equivalent boundary conditions and asymptotic models for the solution of a transmission problem set in a domain which represents the sun and its atmosphere. This problem models the propagation of an acoustic wave in time-harmonic regime. The specific non-standard feature of this problem lies in the presence of a small parameter δ which represents the inverse rate of the exponential decay of the density in the atmosphere. This problem is well suited for the notion of equivalent conditions and the effect of the atmosphere on the sun is as a first approximation local. This approach leads to solve only equations set in the sun. We derive rigorously equivalent conditions up to the fourth order of approximation with respect to δ for the exact solution
+. The construction of equivalent conditions is based on a multiscale expansion in power series of δ for
+. Numerical simulations illustrate the theoretical results. Finally we measure the boundary layer phenomenon by introducing a characteristic length that turns out to depend on the mean curvature of the interface between the subdomains.},
   URL = {https://hal.inria.fr/hal-02320521},
   JOURNAL = {{Applied Mathematics and Computation}},
   PUBLISHER = {{Elsevier}},
@@ -1070,6 +1074,7 @@
 
 @article{chabassier:hal-03309010,
   TITLE = {{Construction and convergence analysis of conservative second order local time discretisation for linear wave equations}},
+  ABSTRACT = {In this work we present and analyse a time discretisation strategy for linear wave equations t hat aims at using locally in space the most adapted time discretisation among a family of implicit or explicit centered second order schemes. The proposed family of schemes is adapted to domain decomposition methods such as the mortar element method. They correspond in that case to local implicit schemes and to local time stepping. We show that, if some regularity properties of the solution are satisfied and if the time step verifies a stability condition, then the family of proposed time discretisations provides, in a strong norm, second order space-time convergence. Finally, we provide 1D and 2D numerical illustrations that confirm the obtained theoretical results and we compare our approach on 1D test cases to other existing local time stepping strategies for wave equations.},
   AUTHOR = {Chabassier, Juliette and Imperiale, S{\'e}bastien},
   URL = {https://hal.archives-ouvertes.fr/hal-03309010},
   JOURNAL = {{ESAIM: Mathematical Modelling and Numerical Analysis}},
@@ -1105,6 +1110,7 @@
 
 @article{ernoult:hal-03231946,
   TITLE = {{Full waveform inversion for bore reconstruction of woodwind-like instruments}},
+  ABSTRACT = {The internal geometry of a wind instrument can be estimated from acoustic measurements. For woodwind instruments, this involves characterizing the inner shape (bore) but also the side holes (dimensions and location). In this study, the geometric parameters are recovered by a gradient-based optimization process, which minimizes the deviation between simulated and measured linear acoustic responses of the resonator for several fingerings through an observable function. The acoustic fields are computed by solving a linear system resulting from the 1D spectral finite elements spatial discretization of the wave propagation equations (including thermo-viscous effects, radiation and side holes). The “full waveform inversion” (FWI) technique exploits the fact that the gradient of the cost function can be computed by solving the same linear system as that of the direct problem but with a different source term. The gradient is computed with better accuracy and less additional cost than with finite-difference. The dependence of the cost function on the choice of the observed quantity, the frequency range and the fingerings used, is first analyzed. Then, the FWI is used to reconstruct, from measured impedances, an elementary instrument with 14 design variables. The results, obtained in about 1 minute on a laptop, are in excellent agreement with the direct geometric measurements.},
   AUTHOR = {Ernoult, Augustin and Chabassier, Juliette and Rodriguez, Samuel and Humeau, Augustin},
   URL = {https://hal.inria.fr/hal-03231946},
   JOURNAL = {{Acta Acustica}},
