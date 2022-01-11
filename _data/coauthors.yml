@@ -53,10 +53,17 @@
   - firstname: ["Balazs","B."]
     url: http://home.mit.bme.hu/~bank/
 
-"P{\'e}ron":
+"Péron":
   - firstname: ["Victor","V."]
     url: https://lma-umr5142.univ-pau.fr/fr/organisation/membres/cv_-vperon-fr.html
 
-"Legu{\`e}be":
+"Leguèbe":
   - firstname: ["Michael","M"]
-        url: https://people.bordeaux.inria.fr/michael.leguebe/index.html
+    url: https://people.bordeaux.inria.fr/michael.leguebe/index.html
+"Diaz":
+  - firstname: ["Julien","J."]
+    url: https://team.inria.fr/magique3d/fr/team-members/julien-diaz/
+
+"Thibault":
+  - firstname: ["Alexis","A."]
+    url: https://hal.inria.fr/search/index/q/*/authIdHal_s/alexis-thibault
