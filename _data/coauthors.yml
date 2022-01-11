@@ -36,10 +36,15 @@
 "Hélie":
   - firstname: ["Thomas","T."]
     url: https://fr.linkedin.com/in/thomas-helie-2a536a58
-  
-"Bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Tordeux":
+  - firstname: ["Sébastien", "Sebastien","S."]
+    url: https://lma-umr5142.univ-pau.fr/fr/organisation/membres/cv_-stordeux-fr.html
+
+"Pham":
+  - firstname: ["Ha","H."]
+    url: https://team.inria.fr/magique3d/fr/team-members/ha-pham/
+
+"Gizon":
+  - firstname: ["Laurent",'L.']
+      url: http://www2.mps.mpg.de/homes/gizon/
