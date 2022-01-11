@@ -67,3 +67,7 @@
 "Thibault":
   - firstname: ["Alexis","A."]
     url: https://hal.inria.fr/search/index/q/*/authIdHal_s/alexis-thibault
+
+"Boutin":
+  - firstname: ["Henri","H."]
+    url: https://www.ircam.fr/person/henri-boutin/
