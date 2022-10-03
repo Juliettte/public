@@ -33,6 +33,11 @@
 "Tournemenne":
   - firstname: ["Robin", "R."]
     url: https://fr.linkedin.com/in/robin-tournemenne
+
+"Auvray":
+  - firstname: ["Roman","R."]
+    url: https://www.researchgate.net/scientific-contributions/Roman-Auvray-71547700 
+
 "Hélie":
   - firstname: ["Thomas","T."]
     url: https://fr.linkedin.com/in/thomas-helie-2a536a58
@@ -60,6 +65,7 @@
 "Leguèbe":
   - firstname: ["Michael","M"]
     url: https://people.bordeaux.inria.fr/michael.leguebe/index.html
+
 "Diaz":
   - firstname: ["Julien","J."]
     url: https://team.inria.fr/magique3d/fr/team-members/julien-diaz/
