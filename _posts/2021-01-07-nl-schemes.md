@@ -9,5 +9,3 @@ categories: numerical-scheme energy nonlinear
 Work in progress : describe
   * Finite difference scheme
   * IEQ and SAV
-
-{% include first_figure.html %}
