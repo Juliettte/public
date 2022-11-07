@@ -1,6 +1,65 @@
 # go to 
 # https://haltools.inria.fr/Public/afficheRequetePubli.php?auteur_exp=chabassier&CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Rech&lang=fr&Formate=Oui&css=../css/VisuCondense.css
 
+@article{thibault:hal-03794474,
+  TITLE = {{Transmission line coefficients for viscothermal acoustics in conical tubes}},
+  AUTHOR = {Thibault, Alexis and Chabassier, Juliette and Boutin, Henri and H{\'e}lie, Thomas},
+  URL = {https://hal.archives-ouvertes.fr/hal-03794474},
+  JOURNAL = {{Journal of Sound and Vibration}},
+  PUBLISHER = {{Elsevier}},
+  VOLUME = {543},
+  PAGES = {117355},
+  YEAR = {2022},
+  MONTH = Oct,
+  DOI = {10.1016/j.jsv.2022.117355},
+  KEYWORDS = {viscothermal acoustics ; transmission line model ; conical tubes ; hydraulic radius},
+  HAL_ID = {hal-03794474},
+  HAL_VERSION = {v1},
+  ABSTRACT = {Viscothermal acoustic propagation in gases contained in rigid straight or conical tubes is considered. Under the assumption that the wavelength is much larger than both the boundary layer thickness and the tube radius, pressure and flow are shown to be solutions of a pair of coupled 1D differential equations, formulated as transmission line equations involving complex loss coefficients. The derivation of these loss coefficients, which is usually accomplished in cylinders, is generalized here to conical geometries. In the well-kown case of circular cylinders, the Zwikker--Kosten (ZK) theory is recovered. For circular cones, the expression of the loss coefficients is derived. It involves complex-order spherical harmonics, instead of Bessel functions for circular cylinders, and makes the hydraulic radius appear as a natural relevant geometrical parameter. We show that replacing the classical radius by the hydraulic radius in the ZK theory provides an affordable and accurate approximation of the analytic model derived for cones. The proposed formulas are used to compute the input impedance of a cone, and compared with a 3D reference. In an ideal setting, using the spherical harmonics or the hydraulic radius in the 1D method accurately approximates the full 3D method, and allows to increase accuracy by approximately two orders of magnitude compared to the ZK theory.},
+  ABBR = {JSV}
+}
+
+@inproceedings{vanbaarsel:hal-03842072,
+  TITLE = {{Understand and predict acoustic properties of heritage instruments: the case of a Besson trumpet of the Mus{\'e}e de la Musique of Paris}},
+  AUTHOR = {van Baarsel, Tobias and Boust, Clotilde and Chabassier, Juliette and Ernoult, Augustin and Jossic, Marguerite and Kirsch, Sebastian and Lambert, Elsa and Viala, Romain},
+  URL = {https://hal.inria.fr/hal-03842072},
+  BOOKTITLE = {{VIENNATALK2020: FOURTH VIENNA TALK ON MUSIC ACOUSTICS}},
+  ADDRESS = {Vienna, Austria},
+  YEAR = {2022},
+  MONTH = Sep,
+  HAL_ID = {hal-03842072},
+  HAL_VERSION = {v1},
+  ABBR = VT20,
+  ABSTRACT = {Playing wind historical instruments is often conflicting with conservation and protection of museum collections. Some musical and acoustical properties of these instruments therefore remain unknown. Theoretical models can predict some of these properties from the only knowledge of the instruments geometry. A collaboration between Makutu Inria Bordeaux Sud Ouest team, Musée de la Musique - Philharmonie de Paris, Institut Technologique Européen des Métiers de la Musique (ITEMM) at Le Mans and the Centre de Recherche et de Restauration des Musées de France (C2RMF), lead to a procedure hereby applied to the museum collection Besson, which was a leading manufacture of wind instruments, and more specifically to several natural trumpets dating from the early 20th century. The geometry of the instruments has been measured non invasively by means of X-ray tomography in C2RMF. After extracting their bore (evolution of the inner diameter), their entry impedance has been computed. For one specific trumpet (E.0925), simulated data have been compared to measurements with excellent agreement. Despite many uncertainties on the way these instruments were played, simulated sounds can be computed. An « acoustical facsimile » of E.0925 has been crafted from the X-ray and impedance data, and played by a professional natural trumpet player. This allows to compare simulated sounds with human played sounds.}
+}
+
+@inproceedings{chabassier:hal-03794382,
+  TITLE = {{Control parameters for reed wind instruments or organ pipes with reed induced flow},
+  AUTHOR = {Chabassier, Juliette and Auvray, Roman},
+  URL = {https://hal.archives-ouvertes.fr/hal-03794382},
+  BOOKTITLE = {{DAFx 20in22}},
+  ADDRESS = {Vienna, Austria},
+  YEAR = {2022},
+  MONTH = Sep,
+  PDF = {https://hal.archives-ouvertes.fr/hal-03794382/file/DAFx20in22_paper_42.pdf},
+  HAL_ID = {hal-03794382},
+  HAL_VERSION = {v1},
+  ABSTRACT = {Sound synthesis of a pipe coupled with a reed requires to finely tune the physical parameters of the underlying model. Although the pipe geometry is often well known, the 1 degree of freedom reed model's parameters are effective coefficients (mass, section, etc) and are difficult to assess. Studies of this coupled system have essentially focused on models without the reed induced flow, and have exhibited two dimensionless parameters γ and ζ, which respectively describe the ratio between feeding pressure and closing reed pressure, and a dimensionless opening of the reed at rest. Including the reed flow in the model, then performing a scaling of the equations, leads to a new third dimensionless quantity that we will call κ. Varying the reed frequency with constant (γ, ζ, κ) on different pipe dimensions shows a certain stability of the model once put under this form. Using a real-time sound synthesis tool, the parameter space (γ, ζ, κ) is explored while the damping of the reed is also varied},
+  ABBR = DAFx22
+}
+
+@inproceedings{chabassier:ses,
+  TITLE = {{Mod{\'e}liser et simuler les instruments de musique}},
+  AUTHOR = {Chabassier, Juliette},
+  BOOKTITLE = {{Cycle de conférences Science et Société}},
+  ADDRESS = {Nancy, France},
+  YEAR = {2022},
+  MONTH = Sep,
+  abbr = {SES 2022}, 
+  URL = {https://conferences-sciences-et-societe.univ-lorraine.fr/conference/modelisation-et-simulation-numerique-dinstruments-de-musique/},
+  ABSTRACT = {L’acoustique musicale est la discipline qui cherche à expliquer le fonctionnement physique des instruments de musique. Elle se base sur une approche liant les sciences expérimentales, la modélisation mathématique et les techniques de simulation informatique. Les instruments de musique sont hautement complexes et font intervenir des couplages entre des phénomènes physiques variés. Cet exposé tentera de balayer les problématiques rencontrées en matière de modélisation et de simulation des instruments de musique, en mettant l’accent sur la finalité des modèles physiques, leurs forces et faiblesses, et les enjeux dans les contextes de synthèse sonore ou d’aide à la facture instrumentale. Des focus sur certaines parties spécifiques des instruments viendront illustrer le nécessaire compromis entre prédictibilité et efficacité, tandis que des exemples concrets de projets menés en partenariat avec des luthiers ou des musées montreront la richesse mais aussi la difficulté de confronter les modèles aux situations réelles.}
+}
+
 @inproceedings{castera:hal-03757200,
   TITLE = {{Linearly implicit energy consistent time discretisation for nonlinear wave equations}},
   AUTHOR = {Castera, Guillaume and Chabassier, Juliette and Fisette, Paul},
@@ -1228,4 +1287,5 @@ Conclusions. The method presented here is computationally efficient and will be 
   HAL_ID = {hal-03613608},
   HAL_VERSION = {v1},
   abbr = {JSV},
+  ABSTRACT = {Parameters of modal expressions for the input impedance of wind instruments can be computed from the Telegrapher equations with radiating boundary conditions at the bell. One dimensional finite elements are used for spatial discretization. Provided that the models can be put under a specified form, the modal parameters can be computed directly by solving a generalized eigenvalue problem. Viscothermal effects can also be accounted for, as well as open or closed toneholes. Modal shapes can be visualized along the instrument. Parameters of modal expressions for the input admittance of flute-like instruments can also be computed.}
 }
