@@ -33,6 +33,26 @@
   PDF = {https://hal.science/hal-04182465/file/RR-9516.pdf},
   HAL_ID = {hal-04182465},
   HAL_VERSION = {v1},
+  ABSTRACT = {In this report, we present energy quadratization techniques for a 
+  Hamiltonian system of nonlinear wave equations formulated at order 2 in time. 
+  On a generic system, we present the so-called Invariant Energy Quadratization (IEQ) 
+  and Scalar Auxiliary Variable (SAV) methods as well as their energy conservation 
+  properties and discretization strategies in space and time. Unlike the iterative 
+  techniques commonly used for nonlinear systems to guarantee certain invariances, 
+  these two methods lead to algorithms whose complexity is known in advance and rely 
+  on the simple inversion of a linear system at each time step. In spite of an 
+  unconditional stability and an attractive complexity, the literature mentions 
+  problematic application cases with an uncontrolled accuracy. The numerical 
+  properties (stability, consistency and uniform convergence in time with respect 
+  to the CFL) of schemes obtained by hybridization between theta scheme and 
+  quadratization are studied for two classes of nonlinear terms: a nonlinearity 
+  concerning the solution field, and a nonlinearity concerning its gradient. These 
+  results are then applied to a geometrically exact nonlinear piano string for 
+  which numerical results are presented. The influence of the discretization 
+  parameters is studied and related to the theoretical results. The choices for 
+  the best accuracy or computational cost are illustrated. Some parameters can 
+  induce the space-time non-convergence of the schemes for a nonlinearity on the 
+  gradient, as it is the case for the piano string.},
   abbr={preprint},
 }
 
@@ -47,6 +67,8 @@
   PDF = {https://inria.hal.science/hal-04189789/file/CHABASSIER-AnalyseOrdre1_SUBMITTED.pdf},
   HAL_ID = {hal-04189789},
   HAL_VERSION = {v1},
+  ABSTRACT = {This work focuses on the mixed formulation of linear wave equations. It provides a proof of stability and convergence of time discretisation of a semi discrete linear wave equation in mixed form with Störmer-Verlet time integration, that is uniform as the time step reaches its largest allowed value for stability (Courant-Friedrich-Levy condition), contrary to the proofs recalled here from the literature.},
+  abbr = {preprint} 
 }
 
 @techreport{chabassier:hal-04262905,
@@ -62,6 +84,9 @@
   PDF = {https://inria.hal.science/hal-04262905/file/RR-9527.pdf},
   HAL_ID = {hal-04262905},
   HAL_VERSION = {v1},
+  ABSTRACT = {This report presents two parametric implicit strategies for discretizing the mixed formulation of linear wave equations, based for the first on the Störmer-Verlet scheme and for the second on the Crank-Nicolson scheme. If the initial conditions are well chosen, these two strategies are equivalent, and equivalence formulas allow the variables of one scheme to be reconstructed from the other. These two schemes are also equivalent to the 𝜃
+θ
+-scheme discretization of the wave equation formulated at order 2. However, the first scheme has a lower complexity than the second one. Numerical results illustrate these equivalences and these efficiency comparisons.},
   abbr={preprint}
 }
 
@@ -1356,6 +1381,7 @@ Conclusions. The method presented here is computationally efficient and will be 
   PDF = {https://hal.inria.fr/hal-02917351v2/file/RR-9356v2hal.pdf},
   HAL_ID = {hal-02917351},
   HAL_VERSION = {v2},
+  abbr = {RR}
 }
 
 @article{ernoult:hal-03231946,
