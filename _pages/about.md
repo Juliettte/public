@@ -24,7 +24,7 @@ I am a member of the [SCRIME](https://scrime.u-bordeaux.fr) where scientists can
 
 As a member of [Modartt](http://www.modartt.com) company, I help develop new algorithms for real time sound synthesis of musical instruments.
 
-In the GDS [EcoInfo](https://ecoinfo.cnrs.fr), I try to better understand the environmental footprint of the digital world.
+<!--In the GDS [EcoInfo](https://ecoinfo.cnrs.fr), I try to better understand the environmental footprint of the digital world.-->
 
 I also like to play the baroque oboe with the [Ensemble Les Précieuses](https://ensemblelesprecieuses.fr), the Ensemble Maddalena and others, to sing in the choir [Orfeo](https://ensembleorfeo.fr) and to listen to [J. S. Bach](https://en.wikipedia.org/wiki/Johann_Sebastian_Bach) wonderful work.
  
