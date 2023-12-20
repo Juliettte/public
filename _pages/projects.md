@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: I have been involved in the following projects, here sorted by category.
 nav: true
-display_categories: [musicalacoustics, phdthesis, dissemination, ecology]
+display_categories: [musicalacoustics, phdthesis, dissemination]
 horizontal: false
 ---
 
