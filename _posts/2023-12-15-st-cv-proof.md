@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Space time convergence of conservative schemes for the linear wave equation
-date: 2023-12-01
+date: 2023-12-15
 description: Analysis of time discretisation for linear wave equations, uniformly as the time step reaches its greatest  value allowed by the stability condition
 tags: numerics energy
 categories: numerical-scheme energy 
