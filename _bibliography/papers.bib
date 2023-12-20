@@ -1,6 +1,16 @@
 # go to 
 # https://haltools.inria.fr/Public/afficheRequetePubli.php?auteur_exp=chabassier&CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Rech&lang=fr&Formate=Oui&css=../css/VisuCondense.css
 
+
+# ===================================================================
+# ==================== A RANGER ===========================
+# ===================================================================
+
+
+
+# ===================================================================
+# =========================== PIANO MODEL ===========================
+# ===================================================================
 @techreport{castera:hal-04317501,
   TITLE = {{Piano bridge mobility and longitudinal precursors}},
   AUTHOR = {Castera, Guillaume and Chabassier, Juliette and Fisette, Paul and Wagijo, Brad},
@@ -17,536 +27,6 @@
   abbr={preprint},
 }
 
-@article{thibault:hal-03794474,
-  TITLE = {{Transmission line coefficients for viscothermal acoustics in conical tubes}},
-  AUTHOR = {Thibault, Alexis and Chabassier, Juliette and Boutin, Henri and H{\'e}lie, Thomas},
-  URL = {https://hal.archives-ouvertes.fr/hal-03794474},
-  JOURNAL = {{Journal of Sound and Vibration}},
-  PUBLISHER = {{Elsevier}},
-  VOLUME = {543},
-  PAGES = {117355},
-  YEAR = {2022},
-  MONTH = Oct,
-  DOI = {10.1016/j.jsv.2022.117355},
-  PDF = {https://hal.science/hal-03794474v1/file/cone_losses_jsv_preprint.pdf},
-  KEYWORDS = {viscothermal acoustics ; transmission line model ; conical tubes ; hydraulic radius},
-  HAL_ID = {hal-03794474},
-  HAL_VERSION = {v1},
-  ABSTRACT = {Viscothermal acoustic propagation in gases contained in rigid straight or conical tubes is considered. Under the assumption that the wavelength is much larger than both the boundary layer thickness and the tube radius, pressure and flow are shown to be solutions of a pair of coupled 1D differential equations, formulated as transmission line equations involving complex loss coefficients. The derivation of these loss coefficients, which is usually accomplished in cylinders, is generalized here to conical geometries. In the well-kown case of circular cylinders, the Zwikker--Kosten (ZK) theory is recovered. For circular cones, the expression of the loss coefficients is derived. It involves complex-order spherical harmonics, instead of Bessel functions for circular cylinders, and makes the hydraulic radius appear as a natural relevant geometrical parameter. We show that replacing the classical radius by the hydraulic radius in the ZK theory provides an affordable and accurate approximation of the analytic model derived for cones. The proposed formulas are used to compute the input impedance of a cone, and compared with a 3D reference. In an ideal setting, using the spherical harmonics or the hydraulic radius in the 1D method accurately approximates the full 3D method, and allows to increase accuracy by approximately two orders of magnitude compared to the ZK theory.},
-  ABBR = {JSV},
-  selected = {true}
-}
-
-@techreport{castera:hal-04182465,
-  TITLE = {{Numerical analysis of quadratized schemes. Application to the simulation of the nonlinear piano string}},
-  AUTHOR = {Castera, Guillaume and Chabassier, Juliette},
-  URL = {https://hal.science/hal-04182465},
-  NUMBER = {RR-9516},
-  INSTITUTION = {{Inria}},
-  YEAR = {2023},
-  MONTH = Aug,
-  KEYWORDS = {Numerical analysis ; Space-Time convergence ; Invariant Energy Quadratization ; Scalar Auxiliary Variable ; Analyse num{\'e}rique ; Convergence spatio-temporelle ; Quadratisation {\`a} Energie Invariante ; Variable Auxiliaire Scalaire},
-  PDF = {https://hal.science/hal-04182465/file/RR-9516.pdf},
-  HAL_ID = {hal-04182465},
-  HAL_VERSION = {v1},
-  ABSTRACT = {In this report, we present energy quadratization techniques for a 
-  Hamiltonian system of nonlinear wave equations formulated at order 2 in time. 
-  On a generic system, we present the so-called Invariant Energy Quadratization (IEQ) 
-  and Scalar Auxiliary Variable (SAV) methods as well as their energy conservation 
-  properties and discretization strategies in space and time. Unlike the iterative 
-  techniques commonly used for nonlinear systems to guarantee certain invariances, 
-  these two methods lead to algorithms whose complexity is known in advance and rely 
-  on the simple inversion of a linear system at each time step. In spite of an 
-  unconditional stability and an attractive complexity, the literature mentions 
-  problematic application cases with an uncontrolled accuracy. The numerical 
-  properties (stability, consistency and uniform convergence in time with respect 
-  to the CFL) of schemes obtained by hybridization between theta scheme and 
-  quadratization are studied for two classes of nonlinear terms: a nonlinearity 
-  concerning the solution field, and a nonlinearity concerning its gradient. These 
-  results are then applied to a geometrically exact nonlinear piano string for 
-  which numerical results are presented. The influence of the discretization 
-  parameters is studied and related to the theoretical results. The choices for 
-  the best accuracy or computational cost are illustrated. Some parameters can 
-  induce the space-time non-convergence of the schemes for a nonlinearity on the 
-  gradient, as it is the case for the piano string.},
-  abbr={preprint},
-}
-
-@techreport{chabassier:hal-04189789,
-  TITLE = {{Stability and space/time convergence of St{\"o}rmer-Verlet time integration of the mixed formulation of linear wave equations}},
-  AUTHOR = {Chabassier, Juliette},
-  URL = {https://inria.hal.science/hal-04189789},
-  NOTE = {working paper or preprint},
-  YEAR = {2023},
-  MONTH = Aug,
-  KEYWORDS = {linear wave equation; mixed formulation; stability; energy; space/time convergence},
-  PDF = {https://inria.hal.science/hal-04189789/file/CHABASSIER-AnalyseOrdre1_SUBMITTED.pdf},
-  HAL_ID = {hal-04189789},
-  HAL_VERSION = {v1},
-  ABSTRACT = {This work focuses on the mixed formulation of linear wave equations. It provides a proof of stability and convergence of time discretisation of a semi discrete linear wave equation in mixed form with Störmer-Verlet time integration, that is uniform as the time step reaches its largest allowed value for stability (Courant-Friedrich-Levy condition), contrary to the proofs recalled here from the literature.},
-  abbr = {preprint} 
-}
-
-@techreport{chabassier:hal-04262905,
-  TITLE = {{Two implicit parametrized discretization strategies for the mixed formulation of linear wave equations}},
-  AUTHOR = {Chabassier, Juliette},
-  URL = {https://inria.hal.science/hal-04262905},
-  NUMBER = {RR-9527},
-  PAGES = {18},
-  INSTITUTION = {{Inria}},
-  YEAR = {2023},
-  MONTH = Oct,
-  KEYWORDS = {Numerical analysis ; implicit discretization ; mixed formulation ; analyse num{\'e}rique ; discr{\'e}tisation implicite ; formulation mixte},
-  PDF = {https://inria.hal.science/hal-04262905/file/RR-9527.pdf},
-  HAL_ID = {hal-04262905},
-  HAL_VERSION = {v1},
-  ABSTRACT = {This report presents two parametric implicit strategies for discretizing the mixed formulation of linear wave equations, based for the first on the Störmer-Verlet scheme and for the second on the Crank-Nicolson scheme. If the initial conditions are well chosen, these two strategies are equivalent, and equivalence formulas allow the variables of one scheme to be reconstructed from the other. These two schemes are also equivalent to the 𝜃
-θ
--scheme discretization of the wave equation formulated at order 2. However, the first scheme has a lower complexity than the second one. Numerical results illustrate these equivalences and these efficiency comparisons.},
-  abbr={preprint}
-}
-@inproceedings{chabassier:hal-04039870,
-  TITLE = {{Techniques de quadratisation pour les {\'e}quations d'onde lin{\'e}aires : mod{\'e}lisation et simulations}},
-  AUTHOR = {Chabassier, Juliette},
-  URL = {https://inria.hal.science/hal-04039870},
-  BOOKTITLE = {{Journ{\'e}es Ondes du Sud Ouest}},
-  ADDRESS = {Toulouse, France},
-  YEAR = {2023},
-  MONTH = Mar,
-  KEYWORDS = {sch{\'e}ma num{\'e}rique ; mod{\'e}lisation ; {\'e}quations des ondes},
-  PDF = {https://inria.hal.science/hal-04039870/file/PresJosoChabassier.pdf},
-  HAL_ID = {hal-04039870},
-  HAL_VERSION = {v1},
-  abbr = {JOSO 2023}
-}
-
-@inproceedings{vanbaarsel:hal-03842072,
-  TITLE = {{Understand and predict acoustic properties of heritage instruments: the case of a Besson trumpet of the Mus{\'e}e de la Musique of Paris}},
-  AUTHOR = {van Baarsel, Tobias and Boust, Clotilde and Chabassier, Juliette and Ernoult, Augustin and Jossic, Marguerite and Kirsch, Sebastian and Lambert, Elsa and Viala, Romain},
-  URL = {https://hal.inria.fr/hal-03842072},
-  BOOKTITLE = {{VIENNATALK2020: FOURTH VIENNA TALK ON MUSIC ACOUSTICS}},
-  ADDRESS = {Vienna, Austria},
-  YEAR = {2022},
-  MONTH = Sep,
-  HAL_ID = {hal-03842072},
-  HAL_VERSION = {v1},
-  ABBR = {Vienna Talk 2022},
-  ABSTRACT = {Playing wind historical instruments is often conflicting with conservation and protection of museum collections. Some musical and acoustical properties of these instruments therefore remain unknown. Theoretical models can predict some of these properties from the only knowledge of the instruments geometry. A collaboration between Makutu Inria Bordeaux Sud Ouest team, Musée de la Musique - Philharmonie de Paris, Institut Technologique Européen des Métiers de la Musique (ITEMM) at Le Mans and the Centre de Recherche et de Restauration des Musées de France (C2RMF), lead to a procedure hereby applied to the museum collection Besson, which was a leading manufacture of wind instruments, and more specifically to several natural trumpets dating from the early 20th century. The geometry of the instruments has been measured non invasively by means of X-ray tomography in C2RMF. After extracting their bore (evolution of the inner diameter), their entry impedance has been computed. For one specific trumpet (E.0925), simulated data have been compared to measurements with excellent agreement. Despite many uncertainties on the way these instruments were played, simulated sounds can be computed. An « acoustical facsimile » of E.0925 has been crafted from the X-ray and impedance data, and played by a professional natural trumpet player. This allows to compare simulated sounds with human played sounds.}
-}
-
-@inproceedings{chabassier:hal-03794382,
-  TITLE = {Control parameters for reed wind instruments or organ pipes with reed induced flow},
-  AUTHOR = {Chabassier, Juliette and Auvray, Roman},
-  URL = {https://hal.archives-ouvertes.fr/hal-03794382},
-  BOOKTITLE = {{DAFx 20in22}},
-  ADDRESS = {Vienna, Austria},
-  YEAR = {2022},
-  MONTH = {Sep},
-  PDF = {https://hal.archives-ouvertes.fr/hal-03794382/file/DAFx20in22_paper_42.pdf},
-  HAL_ID = {hal-03794382},
-  HAL_VERSION = {v1},
-  ABSTRACT = {Sound synthesis of a pipe coupled with a reed requires to finely tune the physical parameters 
-  of the underlying model. Although the pipe geometry is often well known, the 1 degree of freedom reed model's 
-  parameters are effective coefficients (mass, section, etc) and are difficult to assess. Studies of this coupled 
-  system have essentially focused on models without the reed induced flow, and have exhibited two dimensionless
-   parameters, which respectively describe the ratio between feeding pressure and closing reed pressure, 
-   and a dimensionless opening of the reed at rest. Including the reed flow in the model, then performing a 
-   scaling of the equations, leads to a new third dimensionless quantity that we will call kappa. Varying the reed 
-   frequency with constant parameters on different pipe dimensions shows a certain stability of the model once 
-   put under this form. Using a real-time sound synthesis tool, the parameter space is explored while the damping 
-   of the reed is also varied.},
-  ABBR = {DAFx22}
-}
-
-@inproceedings{chabassier:ses,
-  TITLE = {{Mod{\'e}liser et simuler les instruments de musique}},
-  AUTHOR = {Chabassier, Juliette},
-  BOOKTITLE = {{Cycle de conférences Science et Société}},
-  ADDRESS = {Nancy, France},
-  YEAR = {2022},
-  MONTH = Sep,
-  abbr = {SES 2022}, 
-  URL = {https://conferences-sciences-et-societe.univ-lorraine.fr/conference/modelisation-et-simulation-numerique-dinstruments-de-musique/},
-  ABSTRACT = {L’acoustique musicale est la discipline qui cherche à expliquer le fonctionnement physique des instruments de musique. Elle se base sur une approche liant les sciences expérimentales, la modélisation mathématique et les techniques de simulation informatique. Les instruments de musique sont hautement complexes et font intervenir des couplages entre des phénomènes physiques variés. Cet exposé tentera de balayer les problématiques rencontrées en matière de modélisation et de simulation des instruments de musique, en mettant l’accent sur la finalité des modèles physiques, leurs forces et faiblesses, et les enjeux dans les contextes de synthèse sonore ou d’aide à la facture instrumentale. Des focus sur certaines parties spécifiques des instruments viendront illustrer le nécessaire compromis entre prédictibilité et efficacité, tandis que des exemples concrets de projets menés en partenariat avec des luthiers ou des musées montreront la richesse mais aussi la difficulté de confronter les modèles aux situations réelles.}
-}
-
-@inproceedings{castera:hal-03757200,
-  TITLE = {{Linearly implicit energy consistent time discretisation for nonlinear wave equations}},
-  AUTHOR = {Castera, Guillaume and Chabassier, Juliette and Fisette, Paul},
-  URL = {https://hal.archives-ouvertes.fr/hal-03757200},
-  BOOKTITLE = {{WAVES}},
-  ADDRESS = {Palaiseau, France},
-  YEAR = {2022},
-  MONTH = Jul,
-  HAL_ID = {hal-03757200},
-  HAL_VERSION = {v1},
-  PDF = {https://hal.archives-ouvertes.fr/hal-03757200/},
-  abbr = {WAVES 2022}
-}
-
-@inproceedings{boutin:hal-03780126,
-  TITLE = {{Thermoviscous acoustic propagation in thin rough tubes}},
-  AUTHOR = {Boutin, Henri and Chabassier, Juliette and H{\'e}lie, Thomas and Thibault, Alexis},
-  URL = {https://hal.archives-ouvertes.fr/hal-03780126},
-  BOOKTITLE = {{WAVES}},
-  ADDRESS = {Palaiseau, France},
-  YEAR = {2022},
-  MONTH = Jul,
-  KEYWORDS = {WAVES ; Palaiseau ; roughness ; thermoviscous acoustics ; scale separation ; losses},
-  PDF = {https://hal.archives-ouvertes.fr/hal-03780126/file/THIBAULT_WAVES2022.pdf},
-  HAL_ID = {hal-03780126},
-  HAL_VERSION = {v1},
-  ABSTRACT = {Thermoviscous acoustic propagation in a tube with corrugated isothermal rigid walls is considered. At long wavelengths, it amounts to a 1D transmission line equation, in which the coefficients depend on the solution to a 2D diffusion problem. These coefficients are shown to display predictable behaviors at low, high, and intermediate frequencies. These results are demonstrated on a numerical example.},
-  abbr = {WAVES 2022}
-}
-
-@inproceedings{thibault:hal-03673860,
-  TITLE = {{Mod{\'e}lisation de l'influence d'une paroi rugueuse sur la propagation acoustique dans un instrument {\`a} vent}},
-  AUTHOR = {Thibault, Alexis and Chabassier, Juliette and Boutin, Henri and H{\'e}lie, Thomas},
-  URL = {https://hal.archives-ouvertes.fr/hal-03673860},
-  BOOKTITLE = {{CFA 2022 - 16{\`e}me Congr{\`e}s Fran{\c c}ais d'Acoustique}},
-  ADDRESS = {Marseille, France},
-  YEAR = {2022},
-  MONTH = Apr,
-  PDF = {https://hal.archives-ouvertes.fr/hal-03673860/file/000243_THIBAULT-abstractonly.pdf},
-  HAL_ID = {hal-03673860},
-  HAL_VERSION = {v1},
-  abbr = {CFA 2022}
-}
-
-@inproceedings{castera:hal-03514716,
-  TITLE = {{Energy-preserving IEQ and SAV schemes applied to piano string}},
-  AUTHOR = {Castera, Guillaume and Chabassier, Juliette},
-  URL = {https://hal.inria.fr/hal-03514716},
-  BOOKTITLE = {{ICOSAHOM}},
-  ADDRESS = {Vienna, Austria},
-  YEAR = {2021},
-  MONTH = Jul,
-  HAL_ID = {hal-03514716},
-  HAL_VERSION = {v1},
-  abbr = {ICOSAHOM 2021}
-}
-
-@inproceedings{galet:hal-03514473,
-  TITLE = {{Des outils de m{\'e}diation innovants inspir{\'e}s par des travaux de recherche : 3 exemples}},
-  AUTHOR = {Galet, Justine and Rousseau, Antoine and Rivano, Herv{\'e} and Chabassier, Juliette},
-  URL = {https://hal.archives-ouvertes.fr/hal-03514473},
-  BOOKTITLE = {{Science and You}},
-  ADDRESS = {Metz, France},
-  YEAR = {2021},
-  MONTH = Nov,
-  HAL_ID = {hal-03514473},
-  HAL_VERSION = {v1},
-  abbr = {S&Y 2021}
-}
-
-@inproceedings{chabassier:hal-03514411,
-  TITLE = {{Mod{\'e}liser et simuler les instruments de musique}},
-  AUTHOR = {Chabassier, Juliette},
-  URL = {https://hal.archives-ouvertes.fr/hal-03514411},
-  BOOKTITLE = {{Journ{\'e}es d'informatique musicale 2021}},
-  ADDRESS = {visioconference, France},
-  YEAR = {2021},
-  MONTH = Jul,
-  HAL_ID = {hal-03514411},
-  HAL_VERSION = {v1},
-  abbr = {JIM 2021}
-}
-
-@inproceedings{chabassier:mizique,
-  TITLE = {{Mod{\'e}liser et simuler les instruments de musique}},
-  AUTHOR = {Chabassier, Juliette},
-  BOOKTITLE = {{En avant la MIZ'ique}},
-  ADDRESS = {Amiens, France},
-  YEAR = {2022},
-  MONTH = May,
-  abbr = {MIZ 2022}
-}
-
-@inproceedings{thibault:hal-03332223,
-  TITLE = {{A low reduced frequency model for viscothermal wave propagation in conical tubes of arbitrary cross-section}},
-  AUTHOR = {Thibault, Alexis and Chabassier, Juliette and Boutin, Henri and H{\'e}lie, Thomas},
-  URL = {https://hal.archives-ouvertes.fr/hal-03332223},
-  BOOKTITLE = {{ICSV27 - 27th International Congress on Sound and Vibration}},
-  ADDRESS = {Prague, Czech Republic},
-  YEAR = {2021},
-  MONTH = Jul,
-  KEYWORDS = {Zwikker-Kosten ; Analytical solution ; Reduced model ; Conical tubes ; Viscothermal acoustics},
-  HAL_ID = {hal-03332223},
-  HAL_VERSION = {v1},
-  abbr = {ICSV 2021}
-}
-
-@inproceedings{vanbaarsel:hal-04272596,
-  TITLE = {{Synth{\`e}se Sonore des Instruments de Musique du Patrimoine}},
-  AUTHOR = {van Baarsel, Tobias and Chabassier, Juliette and Ernoult, Augustin and Jossic, Marguerite and Viala, Romain and Lambert, Elsa},
-  URL = {https://inria.hal.science/hal-04272596},
-  BOOKTITLE = {{MECA-J 2021 - Congr{\`e}s des jeunes chercheurs en m{\'e}canique}},
-  ADDRESS = {En ligne, France},
-  YEAR = {2021},
-  MONTH = Aug,
-  PDF = {https://inria.hal.science/hal-04272596/file/Synth%C3%A8se%20Sonore%20des%20Instruments%20de%20Musique%20du%20Patrimoine.pdf},
-  HAL_ID = {hal-04272596},
-  HAL_VERSION = {v1},
-  abbr = {MECA-J 2021}
-
-}
-
-@inproceedings{ernoult:hal-04217988,
-  TITLE = {{Openwind: a software to simulate wind instruments, as a tool for acoustic teachers}},
-  AUTHOR = {Ernoult, Augustin and Cabaret, J{\'e}r{\'e}my and Chabassier, Juliette},
-  URL = {https://inria.hal.science/hal-04217988},
-  BOOKTITLE = {{Forum Acusticum 2023 - 10th Convention of the European Acoustics Association}},
-  ADDRESS = {Turin, Italy},
-  ORGANIZATION = {{European Acoustics Association}},
-  YEAR = {2023},
-  MONTH = Sep,
-  KEYWORDS = {musical acoustics ; simulation ; graphical user interface},
-  PDF = {https://inria.hal.science/hal-04217988/file/openwind_education.pdf},
-  HAL_ID = {hal-04217988},
-  HAL_VERSION = {v1},
-  abbr = {FA 2023}
-}
-
-@inproceedings{chabassier:hal-04251425,
-  TITLE = {{Viscothermal effects in ducts at audible frequencies. Application to wind musical instruments}},
-  AUTHOR = {Chabassier, Juliette and Thibault, Alexis},
-  URL = {https://inria.hal.science/hal-04251425},
-  BOOKTITLE = {{Forum Acusticum 2023 - 10th Convention of the European Acoustics Association}},
-  ADDRESS = {Torino, Italy},
-  YEAR = {2023},
-  MONTH = Sep,
-  KEYWORDS = {viscothermal boundary layers ; linear acoustic wave propagation ; pipe modelling ; model error ; input impedance},
-  PDF = {https://inria.hal.science/hal-04251425/file/FA2023_CHATHI_final.pdf},
-  HAL_ID = {hal-04251425},
-  HAL_VERSION = {v1},
-  abbr = {FA 2023}
-}
-
-@inproceedings{castera:hal-02432750,
-  TITLE = {{The virtual workshop OpenWInD: Towards an optimal design tool of wind instruments for makers}},
-  AUTHOR = {Castera, Guillaume and Chabassier, Juliette and Ernoult, Augustin and Thibault, Alexis and Tournemenne, Robin},
-  URL = {https://hal.archives-ouvertes.fr/hal-02432750},
-  BOOKTITLE = {{ISMA 2019 - International Symposium on Music Acoustics}},
-  ADDRESS = {Detmold, Germany},
-  YEAR = {2019},
-  MONTH = Sep,
-  KEYWORDS = {Reed mechanism ; Finite element method ; Time discretization ; Wind instruments ; Radiation impedance ; openwind},
-  HAL_ID = {hal-02432750},
-  HAL_VERSION = {v1},
-  bibtex_show={true},
-  abbr = {ISMA 2019}
-}
-
-@inproceedings{chabassier:hal-02984478,
-  TITLE = {{The Virtual Workshop OpenWinD : a Python Toolbox Assisting Wind Instrument Makers}},
-  AUTHOR = {Chabassier, Juliette and Ernoult, Augustin and Geber, Olivier and Humeau, Augustin and Thibault, Alexis and Tournemenne, Robin and Van Baarsel, Tobias},
-  URL = {https://hal.archives-ouvertes.fr/hal-02984478},
-  BOOKTITLE = {{e-Forum Acusticum}},
-  ADDRESS = {Lyon / Virtual, France},
-  HAL_LOCAL_REFERENCE = {Instrument making : optimisation, rebuilding, new materials, modelling, cultural heritage},
-  YEAR = {2020},
-  MONTH = Dec,
-  DOI = {10.48465/fa.2020.0568},
-  KEYWORDS = {Openwind},
-  PDF = {https://hal.archives-ouvertes.fr/hal-02984478/file/Openwind.pdf},
-  HAL_ID = {hal-02984478},
-  HAL_VERSION = {v1},
-  abbr = {FA 2020}
-}
-
-@inproceedings{ernoult:hal-02996142,
-  TITLE = {{Bore Reconstruction of Woodwind Instruments Using the Full Waveform Inversion}},
-  AUTHOR = {Ernoult, Augustin and Chabassier, Juliette},
-  URL = {https://hal.inria.fr/hal-02996142},
-  BOOKTITLE = {{e-Forum Acusticum}},
-  ADDRESS = {Lyon / Virtual, France},
-  HAL_LOCAL_REFERENCE = {Instrument making : optimisation, rebuilding, new materials, modelling, cultural heritage},
-  YEAR = {2020},
-  MONTH = Dec,
-  DOI = {10.48465/fa.2020.0161},
-  PDF = {https://hal.inria.fr/hal-02996142/file/FA2020_reconstruction.pdf},
-  HAL_ID = {hal-02996142},
-  HAL_VERSION = {v1},
-  abbr = {FA 2020}
-}
-
-@inproceedings{bergot:hal-01894472,
-  TITLE = {{Mod{\'e}lisation et simulation transitoires, dissipant une {\'e}nergie, d'ondes acoustiques lin{\'e}aires dans un tuyau rayonnant}},
-  AUTHOR = {Bergot, Morgane and Chabassier, Juliette and Tournemenne, Robin},
-  URL = {https://hal.archives-ouvertes.fr/hal-01894472},
-  BOOKTITLE = {{CFA 2018 - 14{\`e}me Congr{\`e}s Fran{\c c}ais d'Acoustique}},
-  ADDRESS = {Le Havre, France},
-  YEAR = {2018},
-  MONTH = Apr,
-  HAL_ID = {hal-01894472},
-  HAL_VERSION = {v1},
-  abbr = {CFA 2018}
-}
-
-@unpublished{chabassier:hal-01963686,
-  TITLE = {{energy based model and simulation in the time domain of linear acoutic waves in a radiating pipe}},
-  AUTHOR = {Chabassier, Juliette and Bergot, Morgane and Tournemenne, Robin},
-  URL = {https://hal.inria.fr/hal-01963686},
-  NOTE = {working paper or preprint},
-  YEAR = {2018},
-  MONTH = Dec,
-  HAL_ID = {hal-01963686},
-  HAL_VERSION = {v1},
-}
-
-@inproceedings{barucq:hal-01184102,
-  TITLE = {{Performance assessments of absorbing conditions for the reverse time-harmonic migration}},
-  AUTHOR = {Barucq, H{\'e}l{\`e}ne and Bergot, Morgane and Chabassier, Juliette and Diaz, Julien},
-  URL = {https://hal.inria.fr/hal-01184102},
-  BOOKTITLE = {{PANACM 2015 - 1st Pan-American Congress on Computational Mechanic}},
-  ADDRESS = {Buenos Aires, Argentina},
-  PAGES = {1-8},
-  YEAR = {2015},
-  MONTH = Apr,
-  KEYWORDS = {Wave Propagation ; Numerical Simulation ; Reverse Time Migration ; Absorbing Boundary Condition},
-  PDF = {https://hal.inria.fr/hal-01184102/file/PANACM-SUBMITTED.pdf},
-  HAL_ID = {hal-01184102},
-  HAL_VERSION = {v1},
-  abbr = {PANACM 2015}
-}
-
-@techreport{barucq:hal-01085180,
-  TITLE = {{Derivation of high order absorbing boundary conditions for the Helmholtz equation in 2D}},
-  AUTHOR = {Barucq, H{\'e}l{\`e}ne and Bergot, Morgane and Chabassier, Juliette and Estecahandy, Elodie},
-  URL = {https://hal.inria.fr/hal-01085180},
-  TYPE = {Research Report},
-  NUMBER = {RR-8632},
-  INSTITUTION = {{INRIA Bordeaux ; INRIA}},
-  YEAR = {2014},
-  MONTH = Nov,
-  KEYWORDS = {Absorbing Boundary Conditions ; numerical analysis},
-  PDF = {https://hal.inria.fr/hal-01085180/file/RR-8632.pdf},
-  HAL_ID = {hal-01085180},
-  HAL_VERSION = {v1},
-  abbr = {RR}
-}
-
-@inproceedings{barucq:hal-01264019,
-  TITLE = {{High Order Absorbing Boundary Conditions for the 2D Helmholtz Equation}},
-  AUTHOR = {Barucq, H{\'e}l{\`e}ne and Chabassier, Juliette and Bergot, Morgane},
-  URL = {https://hal.archives-ouvertes.fr/hal-01264019},
-  BOOKTITLE = {{THE 12TH INTERNATIONAL CONFERENCE ON MATHEMATICAL AND NUMERICAL ASPECTS OF WAVE PROPAGATION}},
-  ADDRESS = {Karlsruhe, Germany},
-  YEAR = {2015},
-  MONTH = Jul,
-  KEYWORDS = {high-order approximation ; Helmholtz equation ; absorbing boundary conditions},
-  PDF = {https://hal.archives-ouvertes.fr/hal-01264019/file/2015-WAVES-CLA.pdf},
-  HAL_ID = {hal-01264019},
-  HAL_VERSION = {v1},
-  abbr = {Waves 2015}
-}
-
-@incollection{chabassier:hal-00913685,
-  TITLE = {{Le piano r{\^e}v{\'e} des math{\'e}maticiens}},
-  AUTHOR = {Chabassier, Juliette},
-  URL = {https://hal.inria.fr/hal-00913685},
-  BOOKTITLE = {{Math{\'e}matiques: l'explosion continue}},
-  EDITOR = {Esteban, Maria J. and Helffer, Bernard and Poggi, Jean-Michel},
-  PUBLISHER = {{FSMP ; SFdS ; SMAI ; SMF}},
-  PAGES = {143-148},
-  YEAR = {2013},
-  MONTH = Nov,
-  HAL_ID = {hal-00913685},
-  HAL_VERSION = {v1},
-}
-
-@inproceedings{chabassier:hal-01894465,
-  TITLE = {{L'atelier virtuel : vers une conception optimale d'instruments {\`a} vent {\'e}volutive {\`a} destination des facteurs}},
-  AUTHOR = {Chabassier, Juliette and Tournemenne, Robin},
-  URL = {https://hal.archives-ouvertes.fr/hal-01894465},
-  BOOKTITLE = {{CFA 2018 - 14{\`e}me Congr{\`e}s Fran{\c c}ais d'Acoustique}},
-  ADDRESS = {Le Havre, France},
-  YEAR = {2018},
-  MONTH = Apr,
-  HAL_ID = {hal-01894465},
-  HAL_VERSION = {v1},
-  abbr = {CFA 2018}
-}
-
-@article{chabassier:hal-01054389,
-  TITLE = {{Le piano r{\^e}v{\'e} des math{\'e}maticiens}},
-  AUTHOR = {Chabassier, Juliette and Chaigne, Antoine and Durufl{\'e}, Marc and Joly, Patrick},
-  URL = {https://hal.inria.fr/hal-01054389},
-  JOURNAL = {{Interstices}},
-  PUBLISHER = {{INRIA}},
-  YEAR = {2014},
-  MONTH = Apr,
-  KEYWORDS = {modeling ; piano},
-  HAL_ID = {hal-01054389},
-  HAL_VERSION = {v1},
-}
-
-
-@incollection{chabassier:hal-00913678,
-  TITLE = {{Simuler le son d'un piano}},
-  AUTHOR = {Chabassier, Juliette},
-  URL = {https://hal.inria.fr/hal-00913678},
-  BOOKTITLE = {{Math{\'e}matiques de la Plan{\`e}te Terre}},
-  YEAR = {2013},
-  MONTH = Jun,
-  PDF = {https://hal.inria.fr/hal-00913678/file/Breve.pdf},
-  HAL_ID = {hal-00913678},
-  HAL_VERSION = {v1},
-}
-
-@inproceedings{barucq:hal-00873633,
-  TITLE = {{Numerical Analysis of a reduced formulation of an elasto-acoustic scattering problem}},
-  AUTHOR = {Barucq, H{\'e}l{\`e}ne and Chabassier, Juliette and Diaz, Julien and Estecahandy, Elodie},
-  URL = {https://hal.inria.fr/hal-00873633},
-  BOOKTITLE = {{WAVES 13 : 11th International Conference on Mathematical and Numerical Aspects of Waves}},
-  ADDRESS = {Gammarth, Tunisia},
-  YEAR = {2013},
-  MONTH = Jun,
-  PDF = {https://hal.inria.fr/hal-00873633/file/waves2013_submission_93.pdf},
-  HAL_ID = {hal-00873633},
-  HAL_VERSION = {v1},
-  abbr = {Waves 2013}
-}
-
-@techreport{barucq:hal-01408904,
-  TITLE = {{A study of the numerical robustness of single-layer method with Fourier basis for multiple obstacle scattering in homogeneous media}},
-  AUTHOR = {Barucq, H{\'e}l{\`e}ne and Chabassier, Juliette and Pham, Ha and Tordeux, S{\'e}bastien},
-  URL = {https://hal.inria.fr/hal-01408904},
-  TYPE = {Research Report},
-  NUMBER = {RR-8988},
-  INSTITUTION = {{Inria Bordeaux Sud-Ouest}},
-  YEAR = {2016},
-  MONTH = Dec,
-  KEYWORDS = {single layer methods ; preconditioning in multiple scattering ; acoustic scattering ; multiple scattering ; integral equation methods ; small obstacles acoustic scattering ; potentiel de simple couche ; solveur it{\'e}ratifs ; diffraction multiples ; diffraction multiple par des disques ; diffraction des petites obstacles},
-  PDF = {https://hal.inria.fr/hal-01408904/file/RR-8988.pdf},
-  HAL_ID = {hal-01408904},
-  HAL_VERSION = {v1},
-  abbr = {RR}
-}
-
-@article{chabassier:hal-00757096,
-  TITLE = {{Stability and dispersion analysis of improved time discretization for simply supported prestressed Timoshenko systems. Application to the stiff piano string.}},
-  AUTHOR = {Chabassier, Juliette and Imperiale, S{\'e}bastien},
-  URL = {https://hal.inria.fr/hal-00757096},
-  JOURNAL = {{Wave Motion}},
-  PUBLISHER = {{Elsevier}},
-  VOLUME = {50},
-  NUMBER = {3},
-  PAGES = {456-480},
-  YEAR = {2012},
-  MONTH = Nov,
-  DOI = {10.1016/j.wavemoti.2012.11.002},
-  ABSTRACT = {We study the implicit time discretization of piano strings governing equations within the Timoshenko prestressed beam model. Such model features two different waves, namely the flexural and shear waves, that propagate with very different velocities. We present a novel implicit time discretization that reduces the numerical dispersion while allowing the use of a large time step in the numerical computations. After analyzing the continuous system and the two branches of eigenfrequencies associated with the propagating modes, the classical
--scheme is studied. We present complete new proofs of stability using energy-based approaches that provide uniform results with respect to the featured time step. A dispersion analysis confirms that
- reduces the numerical dispersion, but yields a severely constrained stability condition for the application considered. Therefore we propose a new
--like scheme, which allows to reduce the numerical dispersion while relaxing this stability condition. Stability proofs are also provided for this new scheme. Theoretical results are illustrated with numerical experiments corresponding to the simulation of a realistic piano string.},
-  KEYWORDS = {Prestressed Timoshenko system ; Theta schemes ; Implicit time discretization ; Dispersion analysis ; Stability analysis ; Energy techniques},
-  PDF = {https://hal.inria.fr/hal-00757096/file/TimoshenkoTheta_SUBMITTED_2.pdf},
-  HAL_ID = {hal-00757096},
-  HAL_VERSION = {v1},
-  abbr = {WaMot},
-}
 
 
 @article{bank:hal-01894219,
@@ -568,98 +48,108 @@
   abbr = {SPM},
 }
 
-@inproceedings{chabassier:hal-00873632,
-  TITLE = {{Dispersion analysis of improved time discretization for simply supported prestressed Timoshenko systems. Application to the stiff piano string.}},
-  AUTHOR = {Chabassier, Juliette and Imperiale, S{\'e}bastien},
-  URL = {https://hal.inria.fr/hal-00873632},
+
+@article{chabassier:hal-00913775,
+  TITLE = {{Time domain simulation of a piano. Part 1 : model description.}},
+  AUTHOR = {Chabassier, Juliette and Chaigne, Antoine and Joly, Patrick},
+  ABSTRACT = {The purpose of this study is the time domain modeling of a piano. We aim at explaining the vibratory and acoustical behavior of the piano, by taking into account the main elements that contribute to sound production. The soundboard is modeled as a bidimensional thick, orthotropic, heterogeneous, frequency dependent damped plate, using Reissner Mindlin equations. The vibroacoustics equations allow the soundboard to radiate into the surrounding air, in which we wish to compute the complete acoustical field around the perfectly rigid rim. The soundboard is also coupled to the strings at the bridge, where they form a slight angle from the horizontal plane. Each string is modeled by a one dimensional damped system of equations, taking into account not only the transversal waves excited by the hammer, but also the stiffness thanks to shear waves, as well as the longitudinal waves arising from geometric nonlinearities. The hammer is given an initial velocity that projects it towards a choir of strings, before being repelled. The interacting force is a nonlinear function of the hammer compression. The final piano model is a coupled system of partial differential equations, each of them exhibiting specific difficulties (nonlinear nature of the string system of equations, frequency dependent damping of the soundboard, great number of unknowns required for the acoustic propagation), in addition to couplings’ inherent difficulties.},
+  URL = {https://hal.inria.fr/hal-00913775},
+  JOURNAL = {{ESAIM: Mathematical Modelling and Numerical Analysis}},
+  PUBLISHER = {{EDP Sciences}},
+  VOLUME = {48},
+  NUMBER = {05},
+  PAGES = {1241-1278},
+  YEAR = {2013},
+  MONTH = Nov,
+  DOI = {10.1051/m2an/2013136},
+  KEYWORDS = {damping mechanisms ; piano ; modeling ; energy ; precursor and phantom partials ; damping mechanisms.},
+  PDF = {https://hal.inria.fr/hal-00913775v2/file/ChabassierChaigneJoly.pdf},
+  HAL_ID = {hal-00913775},
+  HAL_VERSION = {v2},
+  abbr = {M2AN},
+}
+
+@inproceedings{chaigne:hal-00873616,
+  TITLE = {{Modeling the grand piano}},
+  AUTHOR = {Chaigne, Antoine and Chabassier, Juliette and Joly, Patrick},
+  URL = {https://hal.inria.fr/hal-00873616},
   BOOKTITLE = {{WAVES 13 : 11th International Conference on Mathematical and Numerical Aspects of Waves}},
   ADDRESS = {Tunis, Tunisia},
   YEAR = {2013},
   MONTH = Jun,
-  PDF = {https://hal.inria.fr/hal-00873632/file/Chabassier.pdf},
-  HAL_ID = {hal-00873632},
+  KEYWORDS = {piano modeling ; time domain},
+  PDF = {https://hal.inria.fr/hal-00873616/file/waves2013_submission_154.pdf},
+  HAL_ID = {hal-00873616},
   HAL_VERSION = {v1},
   abbr = {Waves 2013}
 }
 
-@techreport{chabassier:hal-00913639,
-  TITLE = {{Toucher la corde sensible}},
-  AUTHOR = {Chabassier, Juliette},
-  URL = {https://hal.inria.fr/hal-00913639},
-  TYPE = {Research Report},
-  PUBLISHER = {{GENCI}},
-  INSTITUTION = {{GENCI}},
-  YEAR = {2012},
-  MONTH = Jun,
-  PDF = {https://hal.inria.fr/hal-00913639/file/RA2011-Genci-PianoCT6.pdf},
-  HAL_ID = {hal-00913639},
+
+@inproceedings{chabassier:hal-00539771,
+  TITLE = {{Transitoires de piano et non-lin{\'e}arit{\'e}s des cordes : mesures et simulations}},
+  AUTHOR = {Chabassier, Juliette and Chaigne, Antoine and Joly, Patrick},
+  URL = {https://hal.archives-ouvertes.fr/hal-00539771},
+  BOOKTITLE = {{10{\`e}me Congr{\`e}s Fran{\c c}ais d'Acoustique}},
+  ADDRESS = {Lyon, France},
+  EDITOR = {Soci{\'e}t{\'e} Fran{\c c}aise d'Acoustique - SFA},
+  PAGES = {-},
+  YEAR = {2010},
+  MONTH = Apr,
+  PDF = {https://hal.archives-ouvertes.fr/hal-00539771/file/000225.pdf},
+  HAL_ID = {hal-00539771},
   HAL_VERSION = {v1},
-  abbr = {RR}
+  abbr = {CFA 2010}
 }
 
-@inproceedings{chaigne:hal-01296947,
-  TITLE = {{Energy analysis of structural changes in pianos}},
-  AUTHOR = {Chaigne, Antoine and Chabassier, Juliette and Durufl{\'e}, Marc},
-  URL = {https://hal.archives-ouvertes.fr/hal-01296947},
-  BOOKTITLE = {{ Vienna Talk on Music Acoustics}},
-  ADDRESS = {Vienna, Austria},
-  YEAR = {2015},
+@inproceedings{chaigne:hal-00873639,
+  TITLE = {{Acoustics of pianos: physical modeling, simulations and experiments}},
+  AUTHOR = {Chaigne, Antoine and Chabassier, Juliette and Burban, Nicolas},
+  URL = {https://hal.inria.fr/hal-00873639},
+  BOOKTITLE = {{SMAC 2013 - Stockholm Music Acoustics Conference 2013}},
+  ADDRESS = {Stockholm, Sweden},
+  ORGANIZATION = {{KTH Royal Institute of Technology}},
+  YEAR = {2013},
+  MONTH = Jul,
+  PDF = {https://hal.inria.fr/hal-00873639/file/Piano-Chaigne-SMAC13.pdf},
+  HAL_ID = {hal-00873639},
+  HAL_VERSION = {v1},
+  abbr = {SMAC 2013}
+}
+
+@article{chabassier:hal-00873089,
+  TITLE = {{Modeling and simulation of a grand piano}},
+  AUTHOR = {Chabassier, Juliette and Joly, Patrick and Chaigne, Antoine},
+  ABSTRACT = {A time-domain global modeling of a grand piano is presented. The string model includes internal losses, stiffness, and geometrical nonlinearity. The hammer-string interaction is governed by a nonlinear dissipative compression force. The soundboard is modeled as a dissipative bidimensional orthotropic Reissner–Mindlin plate where the presence of ribs and bridges is treated as local heterogeneities. The coupling between strings and soundboard at the bridge allows the transmission of both transverse and longitudinal waves to the soundboard. The soundboard is coupled to the acoustic field, whereas all other parts of the structure are supposed to be perfectly rigid. The acoustic field is bounded artificially using perfectly matched layers. The discrete form of the equations is based on original energy preserving schemes. Artificial decoupling is achieved, through the use of Schur complements and Lagrange multipliers, so that each variable of the problem can be updated separately at each time step. The capability of the model is highlighted by series of simulations in the low, medium, and high register, and through comparisons with waveforms recorded on a Steinway D piano. Its ability to account for phantom partials and precursors, consecutive to string nonlinearity and inharmonicity, is particularly emphasized.},
+  URL = {https://hal.inria.fr/hal-00873089},
+  JOURNAL = {{Journal of the Acoustical Society of America}},
+  PUBLISHER = {{Acoustical Society of America}},
+  VOLUME = {134},
+  PAGES = {648},
+  YEAR = {2013},
+  MONTH = Jul,
+  DOI = {10.1121/1.4809649},
+  KEYWORDS = {piano modeling ; time domain ; nonlinear strings ; nonlinear precursor ; phantom partials ; energy preserving schemes},
+  PDF = {https://hal.inria.fr/hal-00873089/file/Piano-model-revis.pdf},
+  HAL_ID = {hal-00873089},
+  HAL_VERSION = {v1},
+  abbr = {JASA},
+}
+
+@inproceedings{elie:hal-02281818,
+  TITLE = {{MAESSTRO: A sound synthesis framework for Computer-Aided Design of piano soundboards}},
+  AUTHOR = {Elie, Benjamin and Boutillon, Xavier and Chabassier, Juliette and Ege, Kerem and Laulagnet, Bernard and Tr{\'e}visan, Benjamin and Cott{\'e}, Benjamin and Chauvat, Nicolas},
+  URL = {https://hal.archives-ouvertes.fr/hal-02281818},
+  BOOKTITLE = {{ISMA 2019}},
+  ADDRESS = {Detmold, Germany},
+  YEAR = {2019},
   MONTH = Sep,
-  PDF = {https://hal.archives-ouvertes.fr/hal-01296947/file/ViTa_2015_Paper_19.pdf},
-  HAL_ID = {hal-01296947},
-  HAL_VERSION = {v1},
-  abbr = {Vienna Talk 2015}
-}
-
-@inproceedings{gizon:hal-01264023,
-  TITLE = {{Solving the forward problem of helioseismology in the frequency domain}},
-  AUTHOR = {Gizon, Laurent and Barucq, H{\'e}l{\`e}ne and Durufl{\'e}, Marc and Birch, C. Aaron and Chabassier, Juliette and Fournier, Damien and Hanson, Cristopher},
-  URL = {https://hal.archives-ouvertes.fr/hal-01264023},
-  BOOKTITLE = {{THE 12TH INTERNATIONAL CONFERENCE ON MATHEMATICAL AND NUMERICAL ASPECTS OF WAVE PROPAGATION}},
-  ADDRESS = {Karlsruhe, Germany},
-  YEAR = {2015},
-  MONTH = Jul,
-  PDF = {https://hal.archives-ouvertes.fr/hal-01264023/file/2015-WAVES-Helio.pdf},
-  HAL_ID = {hal-01264023},
-  HAL_VERSION = {v1},
-  abbr = {Waves 2015}
-}
-
-@article{chabassier:hal-00918635,
-  TITLE = {{Energy based simulation of a Timoshenko beam in non-forced rotation. Application to the flexible piano hammer shank.}},
-  AUTHOR = {Chabassier, Juliette and Durufl{\'e}, Marc},
-  ABSTRACT = {A nonlinear model for a vibrating Timoshenko beam in non-forced unknown rotation is derived from the virtual work principle applied to a system of beam with mass at the end. The system represents a piano hammer shank coupled to a hammer head. An energy-based numerical scheme is then provided, obtained by non-classical approaches. A major difficulty for time discretization comes from the nonlinear behavior of the kinetic energy of the system. This new numerical scheme is then coupled to a global energy-preserving numerical solution for the whole piano. The obtained numerical simulations show that the pianistic touch clearly influences the spectrum of the piano sound of equally loud isolated notes. These differences do not come from a possible shock excitation on the structure, or from a changing impact point, or a “longitudinal rubbing motion” on the string, since neither of these features is modeled in our study.},
-  URL = {https://hal.archives-ouvertes.fr/hal-00918635},
-  JOURNAL = {{Journal of Sound and Vibration}},
-  PUBLISHER = {{Elsevier}},
-  VOLUME = {333},
-  NUMBER = {26},
-  PAGES = {7198-7215},
-  YEAR = {2014},
-  DOI = {10.1016/j.jsv.2014.08.017},
-  KEYWORDS = {flexible piano hammer shank ; piano model ; pianistic touch ; implicit time discretization ; vibrating Timoshenko beam ; energy preservation},
-  PDF = {https://hal.archives-ouvertes.fr/hal-00918635v2/file/HammerJSVV3.pdf},
-  HAL_ID = {hal-00918635},
+  KEYWORDS = {Piano soundboard ; Assistance to musical instrument manufacturing ; Sound synthesis},
+  PDF = {https://hal.archives-ouvertes.fr/hal-02281818v2/file/ISMA_MAESSTRO.pdf},
+  HAL_ID = {hal-02281818},
   HAL_VERSION = {v2},
-  abbr = {JSV},
+  abbr = {ISMA 2019}
 }
 
-
-@techreport{chabassier:hal-01833043,
-  TITLE = {{Solving time-harmonic Galbrun's equation with an arbitrary flow. Application to Helioseismology}},
-  AUTHOR = {Chabassier, Juliette and Durufl{\'e}, Marc},
-  URL = {https://hal.inria.fr/hal-01833043},
-  TYPE = {Research Report},
-  NUMBER = {RR-9192},
-  INSTITUTION = {{INRIA Bordeaux}},
-  YEAR = {2018},
-  MONTH = Jul,
-  KEYWORDS = {Finite elements ; Galbrun's equation ; Axisymmetric geometry ; Helioseismology ; Equation de Galbrun ; H{\'e}liosismologie ; El{\'e}ments finis ; G{\'e}om{\'e}trie axisym{\'e}trique},
-  PDF = {https://hal.inria.fr/hal-01833043/file/RR-9192.pdf},
-  HAL_ID = {hal-01833043},
-  HAL_VERSION = {v1},
-  abbr = {RR}
-}
 
 @techreport{chabassier:hal-00688679,
   TITLE = {{Physical parameters for piano modeling}},
@@ -771,6 +261,960 @@
   abbr = {M2AN},
 }
 
+
+@inproceedings{chaigne:hal-01296947,
+  TITLE = {{Energy analysis of structural changes in pianos}},
+  AUTHOR = {Chaigne, Antoine and Chabassier, Juliette and Durufl{\'e}, Marc},
+  URL = {https://hal.archives-ouvertes.fr/hal-01296947},
+  BOOKTITLE = {{ Vienna Talk on Music Acoustics}},
+  ADDRESS = {Vienna, Austria},
+  YEAR = {2015},
+  MONTH = Sep,
+  PDF = {https://hal.archives-ouvertes.fr/hal-01296947/file/ViTa_2015_Paper_19.pdf},
+  HAL_ID = {hal-01296947},
+  HAL_VERSION = {v1},
+  abbr = {Vienna Talk 2015}
+}
+
+@article{chabassier:hal-00918635,
+  TITLE = {{Energy based simulation of a Timoshenko beam in non-forced rotation. Application to the flexible piano hammer shank.}},
+  AUTHOR = {Chabassier, Juliette and Durufl{\'e}, Marc},
+  ABSTRACT = {A nonlinear model for a vibrating Timoshenko beam in non-forced unknown rotation is derived from the virtual work principle applied to a system of beam with mass at the end. The system represents a piano hammer shank coupled to a hammer head. An energy-based numerical scheme is then provided, obtained by non-classical approaches. A major difficulty for time discretization comes from the nonlinear behavior of the kinetic energy of the system. This new numerical scheme is then coupled to a global energy-preserving numerical solution for the whole piano. The obtained numerical simulations show that the pianistic touch clearly influences the spectrum of the piano sound of equally loud isolated notes. These differences do not come from a possible shock excitation on the structure, or from a changing impact point, or a “longitudinal rubbing motion” on the string, since neither of these features is modeled in our study.},
+  URL = {https://hal.archives-ouvertes.fr/hal-00918635},
+  JOURNAL = {{Journal of Sound and Vibration}},
+  PUBLISHER = {{Elsevier}},
+  VOLUME = {333},
+  NUMBER = {26},
+  PAGES = {7198-7215},
+  YEAR = {2014},
+  DOI = {10.1016/j.jsv.2014.08.017},
+  KEYWORDS = {flexible piano hammer shank ; piano model ; pianistic touch ; implicit time discretization ; vibrating Timoshenko beam ; energy preservation},
+  PDF = {https://hal.archives-ouvertes.fr/hal-00918635v2/file/HammerJSVV3.pdf},
+  HAL_ID = {hal-00918635},
+  HAL_VERSION = {v2},
+  abbr = {JSV},
+}
+
+
+# ===================================================================
+# ==================== VISCOTHERMIQUE ==============================
+# ===================================================================
+@article{thibault:hal-03794474,
+  TITLE = {{Transmission line coefficients for viscothermal acoustics in conical tubes}},
+  AUTHOR = {Thibault, Alexis and Chabassier, Juliette and Boutin, Henri and H{\'e}lie, Thomas},
+  URL = {https://hal.archives-ouvertes.fr/hal-03794474},
+  JOURNAL = {{Journal of Sound and Vibration}},
+  PUBLISHER = {{Elsevier}},
+  VOLUME = {543},
+  PAGES = {117355},
+  YEAR = {2022},
+  MONTH = Oct,
+  DOI = {10.1016/j.jsv.2022.117355},
+  PDF = {https://hal.science/hal-03794474v1/file/cone_losses_jsv_preprint.pdf},
+  KEYWORDS = {viscothermal acoustics ; transmission line model ; conical tubes ; hydraulic radius},
+  HAL_ID = {hal-03794474},
+  HAL_VERSION = {v1},
+  ABSTRACT = {Viscothermal acoustic propagation in gases contained in rigid straight or conical tubes is considered. Under the assumption that the wavelength is much larger than both the boundary layer thickness and the tube radius, pressure and flow are shown to be solutions of a pair of coupled 1D differential equations, formulated as transmission line equations involving complex loss coefficients. The derivation of these loss coefficients, which is usually accomplished in cylinders, is generalized here to conical geometries. In the well-kown case of circular cylinders, the Zwikker--Kosten (ZK) theory is recovered. For circular cones, the expression of the loss coefficients is derived. It involves complex-order spherical harmonics, instead of Bessel functions for circular cylinders, and makes the hydraulic radius appear as a natural relevant geometrical parameter. We show that replacing the classical radius by the hydraulic radius in the ZK theory provides an affordable and accurate approximation of the analytic model derived for cones. The proposed formulas are used to compute the input impedance of a cone, and compared with a 3D reference. In an ideal setting, using the spherical harmonics or the hydraulic radius in the 1D method accurately approximates the full 3D method, and allows to increase accuracy by approximately two orders of magnitude compared to the ZK theory.},
+  ABBR = {JSV},
+  selected = {true}
+}
+
+
+@article{thibault:hal-03328715,
+  TITLE = {{Dissipative time-domain one-dimensional model for viscothermal acoustic propagation in wind instruments.}},
+  AUTHOR = {Thibault, Alexis and Chabassier, Juliette},
+  URL = {https://hal.archives-ouvertes.fr/hal-03328715},
+  NOTE = {Copyright 2021 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.The following article appeared in Thibault, A., \\& Chabassier, J. (2021). Dissipative time-domain one-dimensional model for viscothermal acoustic propagation in wind instruments. The Journal of the Acoustical Society of America, 150(2), 1165-1175 and may be found at https://doi.org/10.1121/10.0005537 .},
+  abstract = {Accurate modeling of the acoustic propagation in tubes of varying cross section in musical acoustics must include the effects of the viscous and thermal boundary layers. Models of viscothermal losses are classically written in the frequency domain. An approximate time-domain model is proposed in which all of the physical parameters of the instrument, the bore shape or the wave celerity, are explicit coefficients. The model depends on absolute tabulated constants, which only reflect that the pipe is axisymmetric. It can be understood as a telegrapher's equations augmented by an adjustable number of auxiliary unknowns. A global energy is dissipated. A time discretization based on variational approximation is proposed along with numerical experiments and comparisons with other models.},
+  JOURNAL = {{Journal of the Acoustical Society of America}},
+  PUBLISHER = {{Acoustical Society of America}},
+  VOLUME = {150},
+  NUMBER = {2},
+  PAGES = {1165-1175},
+  YEAR = {2021},
+  MONTH = Aug,
+  DOI = {10.1121/10.0005537},
+  PDF = {https://hal.archives-ouvertes.fr/hal-03328715/file/Manuscript%20%281%29.pdf},
+  HAL_ID = {hal-03328715},
+  HAL_VERSION = {v1},
+  bibtex_show={true},
+  html = {https://doi.org/10.1121/10.0005537},
+  abbr={JASA}
+}
+
+
+@inproceedings{thibault:hal-03332223,
+  TITLE = {{A low reduced frequency model for viscothermal wave propagation in conical tubes of arbitrary cross-section}},
+  AUTHOR = {Thibault, Alexis and Chabassier, Juliette and Boutin, Henri and H{\'e}lie, Thomas},
+  URL = {https://hal.archives-ouvertes.fr/hal-03332223},
+  BOOKTITLE = {{ICSV27 - 27th International Congress on Sound and Vibration}},
+  ADDRESS = {Prague, Czech Republic},
+  YEAR = {2021},
+  MONTH = Jul,
+  KEYWORDS = {Zwikker-Kosten ; Analytical solution ; Reduced model ; Conical tubes ; Viscothermal acoustics},
+  HAL_ID = {hal-03332223},
+  HAL_VERSION = {v1},
+  abbr = {ICSV 2021}
+}
+
+
+@techreport{chabassier:hal-02917351,
+  TITLE = {{Viscothermal models for wind musical instruments}},
+  AUTHOR = {Chabassier, Juliette and Thibault, Alexis},
+  URL = {https://hal.inria.fr/hal-02917351},
+  TYPE = {Research Report},
+  NUMBER = {RR-9356},
+  INSTITUTION = {{Inria Bordeaux Sud-Ouest}},
+  YEAR = {2020},
+  MONTH = Aug,
+  KEYWORDS = {Model error ; Pipe modelling ; Linear acoustic wave propagation ; Viscothermal boundary layers ; Erreur de mod{\`e}le ; Mod{\'e}lisation de tuyau ; Propagation d'ondes acoustiques lin{\'e}aires ; Couches limites viscothermiques},
+  PDF = {https://hal.inria.fr/hal-02917351v2/file/RR-9356v2hal.pdf},
+  HAL_ID = {hal-02917351},
+  HAL_VERSION = {v2},
+  abbr = {RR}
+}
+
+
+@inproceedings{boutin:hal-03780126,
+  TITLE = {{Thermoviscous acoustic propagation in thin rough tubes}},
+  AUTHOR = {Boutin, Henri and Chabassier, Juliette and H{\'e}lie, Thomas and Thibault, Alexis},
+  URL = {https://hal.archives-ouvertes.fr/hal-03780126},
+  BOOKTITLE = {{WAVES}},
+  ADDRESS = {Palaiseau, France},
+  YEAR = {2022},
+  MONTH = Jul,
+  KEYWORDS = {WAVES ; Palaiseau ; roughness ; thermoviscous acoustics ; scale separation ; losses},
+  PDF = {https://hal.archives-ouvertes.fr/hal-03780126/file/THIBAULT_WAVES2022.pdf},
+  HAL_ID = {hal-03780126},
+  HAL_VERSION = {v1},
+  ABSTRACT = {Thermoviscous acoustic propagation in a tube with corrugated isothermal rigid walls is considered. At long wavelengths, it amounts to a 1D transmission line equation, in which the coefficients depend on the solution to a 2D diffusion problem. These coefficients are shown to display predictable behaviors at low, high, and intermediate frequencies. These results are demonstrated on a numerical example.},
+  abbr = {WAVES 2022}
+}
+
+@inproceedings{thibault:hal-03673860,
+  TITLE = {{Mod{\'e}lisation de l'influence d'une paroi rugueuse sur la propagation acoustique dans un instrument {\`a} vent}},
+  AUTHOR = {Thibault, Alexis and Chabassier, Juliette and Boutin, Henri and H{\'e}lie, Thomas},
+  URL = {https://hal.archives-ouvertes.fr/hal-03673860},
+  BOOKTITLE = {{CFA 2022 - 16{\`e}me Congr{\`e}s Fran{\c c}ais d'Acoustique}},
+  ADDRESS = {Marseille, France},
+  YEAR = {2022},
+  MONTH = Apr,
+  PDF = {https://hal.archives-ouvertes.fr/hal-03673860/file/000243_THIBAULT-abstractonly.pdf},
+  HAL_ID = {hal-03673860},
+  HAL_VERSION = {v1},
+  abbr = {CFA 2022}
+}
+
+
+@inproceedings{chabassier:hal-04251425,
+  TITLE = {{Viscothermal effects in ducts at audible frequencies. Application to wind musical instruments}},
+  AUTHOR = {Chabassier, Juliette and Thibault, Alexis},
+  URL = {https://inria.hal.science/hal-04251425},
+  BOOKTITLE = {{Forum Acusticum 2023 - 10th Convention of the European Acoustics Association}},
+  ADDRESS = {Torino, Italy},
+  YEAR = {2023},
+  MONTH = Sep,
+  KEYWORDS = {viscothermal boundary layers ; linear acoustic wave propagation ; pipe modelling ; model error ; input impedance},
+  PDF = {https://inria.hal.science/hal-04251425/file/FA2023_CHATHI_final.pdf},
+  HAL_ID = {hal-04251425},
+  HAL_VERSION = {v1},
+  abbr = {FA 2023}
+}
+
+
+# ===================================================================
+# ==================== QUADRATIZATION= ==============================
+# ===================================================================
+
+@techreport{castera:hal-04182465,
+  TITLE = {{Numerical analysis of quadratized schemes. Application to the simulation of the nonlinear piano string}},
+  AUTHOR = {Castera, Guillaume and Chabassier, Juliette},
+  URL = {https://hal.science/hal-04182465},
+  NUMBER = {RR-9516},
+  INSTITUTION = {{Inria}},
+  YEAR = {2023},
+  MONTH = Aug,
+  KEYWORDS = {Numerical analysis ; Space-Time convergence ; Invariant Energy Quadratization ; Scalar Auxiliary Variable ; Analyse num{\'e}rique ; Convergence spatio-temporelle ; Quadratisation {\`a} Energie Invariante ; Variable Auxiliaire Scalaire},
+  PDF = {https://hal.science/hal-04182465/file/RR-9516.pdf},
+  HAL_ID = {hal-04182465},
+  HAL_VERSION = {v1},
+  ABSTRACT = {In this report, we present energy quadratization techniques for a 
+  Hamiltonian system of nonlinear wave equations formulated at order 2 in time. 
+  On a generic system, we present the so-called Invariant Energy Quadratization (IEQ) 
+  and Scalar Auxiliary Variable (SAV) methods as well as their energy conservation 
+  properties and discretization strategies in space and time. Unlike the iterative 
+  techniques commonly used for nonlinear systems to guarantee certain invariances, 
+  these two methods lead to algorithms whose complexity is known in advance and rely 
+  on the simple inversion of a linear system at each time step. In spite of an 
+  unconditional stability and an attractive complexity, the literature mentions 
+  problematic application cases with an uncontrolled accuracy. The numerical 
+  properties (stability, consistency and uniform convergence in time with respect 
+  to the CFL) of schemes obtained by hybridization between theta scheme and 
+  quadratization are studied for two classes of nonlinear terms: a nonlinearity 
+  concerning the solution field, and a nonlinearity concerning its gradient. These 
+  results are then applied to a geometrically exact nonlinear piano string for 
+  which numerical results are presented. The influence of the discretization 
+  parameters is studied and related to the theoretical results. The choices for 
+  the best accuracy or computational cost are illustrated. Some parameters can 
+  induce the space-time non-convergence of the schemes for a nonlinearity on the 
+  gradient, as it is the case for the piano string.},
+  abbr={preprint},
+}
+
+
+@inproceedings{chabassier:hal-04039870,
+  TITLE = {{Techniques de quadratisation pour les {\'e}quations d'onde lin{\'e}aires : mod{\'e}lisation et simulations}},
+  AUTHOR = {Chabassier, Juliette},
+  URL = {https://inria.hal.science/hal-04039870},
+  BOOKTITLE = {{Journ{\'e}es Ondes du Sud Ouest}},
+  ADDRESS = {Toulouse, France},
+  YEAR = {2023},
+  MONTH = Mar,
+  KEYWORDS = {sch{\'e}ma num{\'e}rique ; mod{\'e}lisation ; {\'e}quations des ondes},
+  PDF = {https://inria.hal.science/hal-04039870/file/PresJosoChabassier.pdf},
+  HAL_ID = {hal-04039870},
+  HAL_VERSION = {v1},
+  abbr = {JOSO 2023}
+}
+
+
+@inproceedings{castera:hal-03757200,
+  TITLE = {{Linearly implicit energy consistent time discretisation for nonlinear wave equations}},
+  AUTHOR = {Castera, Guillaume and Chabassier, Juliette and Fisette, Paul},
+  URL = {https://hal.archives-ouvertes.fr/hal-03757200},
+  BOOKTITLE = {{WAVES}},
+  ADDRESS = {Palaiseau, France},
+  YEAR = {2022},
+  MONTH = Jul,
+  HAL_ID = {hal-03757200},
+  HAL_VERSION = {v1},
+  PDF = {https://hal.archives-ouvertes.fr/hal-03757200/},
+  abbr = {WAVES 2022}
+}
+
+@inproceedings{castera:hal-03514716,
+  TITLE = {{Energy-preserving IEQ and SAV schemes applied to piano string}},
+  AUTHOR = {Castera, Guillaume and Chabassier, Juliette},
+  URL = {https://hal.inria.fr/hal-03514716},
+  BOOKTITLE = {{ICOSAHOM}},
+  ADDRESS = {Vienna, Austria},
+  YEAR = {2021},
+  MONTH = Jul,
+  HAL_ID = {hal-03514716},
+  HAL_VERSION = {v1},
+  abbr = {ICOSAHOM 2021}
+}
+
+
+# ===================================================================
+# ==================== SCHEMAS ORDRE ELEVE ==============================
+# ===================================================================
+
+
+@inproceedings{chabassier:hal-01051808,
+  TITLE = {{High order theta schemes for linear wave equation}},
+  AUTHOR = {Chabassier, Juliette and Imperiale, S.},
+  URL = {https://hal.archives-ouvertes.fr/hal-01051808},
+  BOOKTITLE = {{11th world congress on computational mechanics (WCCM)}},
+  ADDRESS = {Barcelone, Spain},
+  PAGES = {1-2},
+  YEAR = {2014},
+  MONTH = Jul,
+  KEYWORDS = {Implicit Schemes ; High Order Methods ; Modified Equation ; Optimization ; Super Convergence ; Consistency},
+  HAL_ID = {hal-01051808},
+  HAL_VERSION = {v1},
+  abbr = {WCCM 2014}
+}
+
+@inproceedings{chabassier:hal-01051803,
+  TITLE = {{Introduction and study of fourth order theta schemes for linear wave equations}},
+  AUTHOR = {Chabassier, Juliette and Imperiale, S.},
+  URL = {https://hal.archives-ouvertes.fr/hal-01051803},
+  NOTE = {COM},
+  BOOKTITLE = {{Journ{\'e}es Ondes du Sud-Ouest}},
+  ADDRESS = {Toulouse, France},
+  YEAR = {2014},
+  MONTH = Feb,
+  HAL_ID = {hal-01051803},
+  HAL_VERSION = {v1},
+  abbr = {JOSO 2014}
+}
+
+@article{chabassier:hal-00873048,
+  TITLE = {{Introduction and study of fourth order theta schemes for linear wave equations}},
+  AUTHOR = {Chabassier, Juliette and Imperiale, S{\'e}bastien},
+  URL = {https://hal.inria.fr/hal-00873048},
+  JOURNAL = {{Journal of Computational and Applied Mathematics}},
+  PUBLISHER = {{Elsevier}},
+  VOLUME = {245},
+  PAGES = {194-212},
+  YEAR = {2013},
+  MONTH = Jan,
+  DOI = {10.1016/j.cam.2012.12.023},
+  ABSTRACT = {A new class of high order, implicit, three time step schemes for semi-discretized wave equations is introduced and studied. These schemes are constructed using the modified equation approach, generalizing the $\theta$-scheme. Their stability properties are investigated via an energy analysis, which enables us to design super-convergent schemes and also optimal stable schemes in terms of consistency errors. Specific numerical algorithms for the fully discrete problem are tested and discussed, showing the efficiency of our approach compared to second order $\theta$-schemes.},
+  KEYWORDS = {Modified equation ; Theta-scheme ; Time discretization ; Wave equations ; High order numerical methods},
+  PDF = {https://hal.inria.fr/hal-00873048/file/theta_submission_rev_2.pdf},
+  HAL_ID = {hal-00873048},
+  HAL_VERSION = {v1},
+  abbr = {JCAM},
+}
+
+@article{chabassier:hal-01894238,
+  TITLE = {{Construction and analysis of fourth order, energy consistent, family of explicit time discretizations for dissipative linear wave equations}},
+  AUTHOR = {Chabassier, Juliette and Diaz, Julien and Imperiale, S{\'e}bastien},
+  ABSTRACT = {This paper deals with the construction of a family of fourth order, energy consistent, explicit time discretizations for dissipative linear wave equations. The schemes are obtained by replacing the inversion of a matrix, that comes naturally after using the technique of the Modified Equation on the second order Leap Frog scheme applied to dissipative linear wave equations, by explicit approximations of its inverse. The stability of the schemes are studied using an energy analysis and a convergence analysis is carried out. Numerical results in 1D illustrate the space/time convergence properties of the schemes and their efficiency is compared to more classical time discretizations.},
+  URL = {https://hal.inria.fr/hal-01894238},
+  JOURNAL = {{ESAIM: Mathematical Modelling and Numerical Analysis}},
+  PUBLISHER = {{EDP Sciences}},
+  VOLUME = {54},
+  NUMBER = {3},
+  PAGES = {845-878},
+  YEAR = {2020},
+  MONTH = May,
+  DOI = {10.1051/m2an/2019079},
+  KEYWORDS = {High order time discretisation ; Dissipative linear wave equation ; Energy analysis},
+  PDF = {https://hal.inria.fr/hal-01894238v2/file/main.pdf},
+  HAL_ID = {hal-01894238},
+  HAL_VERSION = {v2},
+  abbr = {M2AN}
+}
+
+# ===================================================================
+# ==================== ANALYSE SCHEMAS ==============================
+# ===================================================================
+
+@techreport{chabassier:hal-04189789,
+  TITLE = {{Stability and space/time convergence of St{\"o}rmer-Verlet time integration of the mixed formulation of linear wave equations}},
+  AUTHOR = {Chabassier, Juliette},
+  URL = {https://inria.hal.science/hal-04189789},
+  NOTE = {working paper or preprint},
+  YEAR = {2023},
+  MONTH = Aug,
+  KEYWORDS = {linear wave equation; mixed formulation; stability; energy; space/time convergence},
+  PDF = {https://inria.hal.science/hal-04189789/file/CHABASSIER-AnalyseOrdre1_SUBMITTED.pdf},
+  HAL_ID = {hal-04189789},
+  HAL_VERSION = {v1},
+  ABSTRACT = {This work focuses on the mixed formulation of linear wave equations. It provides a proof of stability and convergence of time discretisation of a semi discrete linear wave equation in mixed form with Störmer-Verlet time integration, that is uniform as the time step reaches its largest allowed value for stability (Courant-Friedrich-Levy condition), contrary to the proofs recalled here from the literature.},
+  abbr = {preprint} 
+}
+@techreport{chabassier:hal-04285761,
+  TITLE = {{Space time convergence of implicit discretization strategies for the mixed formulation of linear wave equations}},
+  AUTHOR = {Chabassier, Juliette},
+  URL = {https://hal.science/hal-04285761},
+  NUMBER = {RR-9529},
+  INSTITUTION = {{Inria}},
+  YEAR = {2023},
+  MONTH = Nov,
+  KEYWORDS = {numerical analysis ; space time convergence ; implicit discretization ; mixed formulation ; analyse num{\'e}rique ; convergence spatio-temporelle ; discr{\'e}tisation implicite ; formulation mixte},
+  PDF = {https://hal.science/hal-04285761/file/RR-9529-HAL.pdf},
+  HAL_ID = {hal-04285761},
+  HAL_VERSION = {v1},
+  abbr={RR}
+}
+
+@techreport{chabassier:hal-04262905,
+  TITLE = {{Two implicit parametrized discretization strategies for the mixed formulation of linear wave equations}},
+  AUTHOR = {Chabassier, Juliette},
+  URL = {https://inria.hal.science/hal-04262905},
+  NUMBER = {RR-9527},
+  PAGES = {18},
+  INSTITUTION = {{Inria}},
+  YEAR = {2023},
+  MONTH = Oct,
+  KEYWORDS = {Numerical analysis ; implicit discretization ; mixed formulation ; analyse num{\'e}rique ; discr{\'e}tisation implicite ; formulation mixte},
+  PDF = {https://inria.hal.science/hal-04262905/file/RR-9527.pdf},
+  HAL_ID = {hal-04262905},
+  HAL_VERSION = {v1},
+  ABSTRACT = {This report presents two parametric implicit strategies for discretizing the mixed formulation of linear wave equations, based for the first on the Störmer-Verlet scheme and for the second on the Crank-Nicolson scheme. If the initial conditions are well chosen, these two strategies are equivalent, and equivalence formulas allow the variables of one scheme to be reconstructed from the other. These two schemes are also equivalent to the 𝜃
+θ
+-scheme discretization of the wave equation formulated at order 2. However, the first scheme has a lower complexity than the second one. Numerical results illustrate these equivalences and these efficiency comparisons.},
+  abbr={RR}
+}
+
+
+@article{chabassier:hal-01421882,
+  TITLE = {{Space/Time convergence analysis of a class of conservative schemes for linear wave equations}},
+  AUTHOR = {Chabassier, Juliette and Imperiale, Sebastien},
+  ABSTRACT = {This paper concerns the space/time convergence analysis of conservative two-step time discretizations for linear wave equations. Explicit and implicit, second- and fourth-order schemes are considered, while the space discretization is given and satisfies minimal hypotheses. Convergence analysis is done using energy techniques and holds if the time step is upper-bounded by a quantity depending on space discretization parameters. In addition to showing the convergence for recently introduced fourth-order schemes, the novelty of this work consists in the independency of the convergence estimates with respect to the difference between the time step and its greatest admissible value.},
+  URL = {https://hal.inria.fr/hal-01421882},
+  JOURNAL = {{Comptes Rendus. Math{\'e}matique}},
+  PUBLISHER = {{Acad{\'e}mie des sciences (Paris)}},
+  VOLUME = {355},
+  NUMBER = {3},
+  PAGES = {282-289},
+  YEAR = {2017},
+  MONTH = Mar,
+  DOI = {10.1016/j.crma.2016.12.009},
+  PDF = {https://hal.inria.fr/hal-01421882/file/Analyse.pdf},
+  HAL_ID = {hal-01421882},
+  HAL_VERSION = {v1},
+  abbr = {CRAS},
+}
+
+@article{chabassier:hal-00757096,
+  TITLE = {{Stability and dispersion analysis of improved time discretization for simply supported prestressed Timoshenko systems. Application to the stiff piano string.}},
+  AUTHOR = {Chabassier, Juliette and Imperiale, S{\'e}bastien},
+  URL = {https://hal.inria.fr/hal-00757096},
+  JOURNAL = {{Wave Motion}},
+  PUBLISHER = {{Elsevier}},
+  VOLUME = {50},
+  NUMBER = {3},
+  PAGES = {456-480},
+  YEAR = {2012},
+  MONTH = Nov,
+  DOI = {10.1016/j.wavemoti.2012.11.002},
+  ABSTRACT = {We study the implicit time discretization of piano strings governing equations within the Timoshenko prestressed beam model. Such model features two different waves, namely the flexural and shear waves, that propagate with very different velocities. We present a novel implicit time discretization that reduces the numerical dispersion while allowing the use of a large time step in the numerical computations. After analyzing the continuous system and the two branches of eigenfrequencies associated with the propagating modes, the classical
+-scheme is studied. We present complete new proofs of stability using energy-based approaches that provide uniform results with respect to the featured time step. A dispersion analysis confirms that
+ reduces the numerical dispersion, but yields a severely constrained stability condition for the application considered. Therefore we propose a new
+-like scheme, which allows to reduce the numerical dispersion while relaxing this stability condition. Stability proofs are also provided for this new scheme. Theoretical results are illustrated with numerical experiments corresponding to the simulation of a realistic piano string.},
+  KEYWORDS = {Prestressed Timoshenko system ; Theta schemes ; Implicit time discretization ; Dispersion analysis ; Stability analysis ; Energy techniques},
+  PDF = {https://hal.inria.fr/hal-00757096/file/TimoshenkoTheta_SUBMITTED_2.pdf},
+  HAL_ID = {hal-00757096},
+  HAL_VERSION = {v1},
+  abbr = {WaMot},
+}
+
+
+
+
+@inproceedings{chabassier:hal-00873632,
+  TITLE = {{Dispersion analysis of improved time discretization for simply supported prestressed Timoshenko systems. Application to the stiff piano string.}},
+  AUTHOR = {Chabassier, Juliette and Imperiale, S{\'e}bastien},
+  URL = {https://hal.inria.fr/hal-00873632},
+  BOOKTITLE = {{WAVES 13 : 11th International Conference on Mathematical and Numerical Aspects of Waves}},
+  ADDRESS = {Tunis, Tunisia},
+  YEAR = {2013},
+  MONTH = Jun,
+  PDF = {https://hal.inria.fr/hal-00873632/file/Chabassier.pdf},
+  HAL_ID = {hal-00873632},
+  HAL_VERSION = {v1},
+  abbr = {Waves 2013}
+}
+
+
+
+# ===================================================================
+# ==================== DISC LOCALE ==============================
+# ===================================================================
+
+
+@article{chabassier:hal-01222072,
+  TITLE = {{Fourth order energy-preserving locally implicit time discretization for linear wave equations}},
+  AUTHOR = {Chabassier, Juliette and Imperiale, S{\'e}bastien},
+  ABSTRACT = {A family of fourth-order coupled implicit–explicit time schemes is presented as a special case of fourth-order coupled implicit schemes for linear wave equations. The domain of interest is decomposed into several regions where different fourth-order time discretizations are used, chosen among a family of implicit or explicit fourth-order schemes. The coupling is based on a Lagrangian formulation on the boundaries between the several non-conforming meshes of the regions. A global discrete energy is shown to be preserved and leads to global fourth-order consistency in time. Numerical results in 1D and 2D for the acoustic and elastodynamics equations illustrate the good behavior of the schemes and their potential for the simulation of realistic highly heterogeneous media or strongly refined geometries, for which using everywhere an explicit scheme can be extremely penalizing. Accuracy up to fourth order reduces the numerical dispersion inherent to implicit methods used with a large time step and makes this family of schemes attractive compared with second-order accurate methods.},
+  URL = {https://hal.inria.fr/hal-01222072},
+  JOURNAL = {{International Journal for Numerical Methods in Engineering}},
+  PUBLISHER = {{Wiley}},
+  YEAR = {2015},
+  DOI = {10.1002/nme.5130},
+  KEYWORDS = {Consistency analysis ; Time discretization ; Wave equations ; Locally implicit schemes ; High-order numerical methods},
+  PDF = {https://hal.inria.fr/hal-01222072/file/ChaImpHal.pdf},
+  HAL_ID = {hal-01222072},
+  HAL_VERSION = {v1},
+  abbr = {IJNME},
+}
+
+@inproceedings{chabassier:hal-01067115,
+  TITLE = {{Fourth order energy-preserving localy implicit discretization for linear wave equations}},
+  AUTHOR = {Chabassier, Juliette and Imperiale, S{\'e}bastien},
+  URL = {https://hal.inria.fr/hal-01067115},
+  BOOKTITLE = {{SECOND FRENCH-RUSSIAN WORKSHOP ON COMPUTATIONAL GEOPHYSICS}},
+  ADDRESS = {Novosibirsk, Russia},
+  YEAR = {2014},
+  MONTH = Sep,
+  KEYWORDS = {locally implicit schemes ; high order implicit schemes ; time discretisation ; high order implicit schemes.},
+  PDF = {https://hal.inria.fr/hal-01067115/file/abstract.pdf},
+  HAL_ID = {hal-01067115},
+  HAL_VERSION = {v1},
+  abbr = {2d FRWCG}
+}
+
+
+@inproceedings{chabassier:hal-01264044,
+  TITLE = {{Fourth-order energy-preserving locally implicit time discretization for linear wave equations}},
+  AUTHOR = {Chabassier, Juliette and Imperiale, Sebastien},
+  URL = {https://hal.archives-ouvertes.fr/hal-01264044},
+  BOOKTITLE = {{WAVES 2015 - The 12th international conference on mathematical and numerical aspects of wave propagation}},
+  ADDRESS = {Karlsruhe, Germany},
+  YEAR = {2015},
+  MONTH = Jul,
+  DOI = {10.1002/nme.5130},
+  KEYWORDS = {High-order numerical methods ; Time discretization ; Locally implicit schemes},
+  PDF = {https://hal.archives-ouvertes.fr/hal-01264044/file/2015-WAVES-LOCIM.pdf},
+  HAL_ID = {hal-01264044},
+  HAL_VERSION = {v1},
+  abbr = {Waves 2015}
+}
+
+
+@article{chabassier:hal-03309010,
+  TITLE = {{Construction and convergence analysis of conservative second order local time discretisation for linear wave equations}},
+  ABSTRACT = {In this work we present and analyse a time discretisation strategy for linear wave equations t hat aims at using locally in space the most adapted time discretisation among a family of implicit or explicit centered second order schemes. The proposed family of schemes is adapted to domain decomposition methods such as the mortar element method. They correspond in that case to local implicit schemes and to local time stepping. We show that, if some regularity properties of the solution are satisfied and if the time step verifies a stability condition, then the family of proposed time discretisations provides, in a strong norm, second order space-time convergence. Finally, we provide 1D and 2D numerical illustrations that confirm the obtained theoretical results and we compare our approach on 1D test cases to other existing local time stepping strategies for wave equations.},
+  AUTHOR = {Chabassier, Juliette and Imperiale, S{\'e}bastien},
+  URL = {https://hal.archives-ouvertes.fr/hal-03309010},
+  JOURNAL = {{ESAIM: Mathematical Modelling and Numerical Analysis}},
+  PUBLISHER = {{EDP Sciences}},
+  VOLUME = {55},
+  NUMBER = {4},
+  PAGES = {1507-1543},
+  YEAR = {2021},
+  MONTH = Jul,
+  DOI = {10.1051/m2an/2021030},
+  KEYWORDS = {Wave equations ; Time discretisation ; Converge analysis ; Local implicit scheme ; Local time stepping},
+  PDF = {https://hal.archives-ouvertes.fr/hal-03309010/file/m2an200139.pdf},
+  HAL_ID = {hal-03309010},
+  HAL_VERSION = {v1},
+  abbr = {M2AN},
+  selected = {true}
+}
+
+
+
+# ===================================================================
+# ==================== SCHEMAS NONLINEAR  EQ  =======================
+# ===================================================================
+
+
+
+@article{chabassier:inria-00534473,
+  TITLE = {{Energy preserving schemes for nonlinear Hamiltonian systems of wave equations: Application to the vibrating piano string}},
+  AUTHOR = {Chabassier, Juliette and Joly, Patrick},
+  URL = {https://hal.inria.fr/inria-00534473},
+  JOURNAL = {{Computer Methods in Applied Mechanics and Engineering}},
+  PUBLISHER = {{Elsevier}},
+  VOLUME = {199},
+  NUMBER = {45-48},
+  PAGES = {2779-2795},
+  YEAR = {2010},
+  DOI = {10.1016/j.cma.2010.04.013},
+  ABSTRACT = {This paper considers a general class of nonlinear systems, “nonlinear Hamiltonian systems of wave equations”. The first part of our work focuses on the mathematical study of these systems, showing central properties (energy preservation, stability, hyperbolicity, finite propagation velocity, etc.). Space discretization is made in a classical way (variational formulation) and time discretization aims at numerical stability using an energy technique. A definition of “preserving schemes” is introduced, and we show that explicit schemes or partially implicit schemes which are preserving according to this definition cannot be built unless the model is trivial. A general energy preserving second order accurate fully implicit scheme is built for any continuous system that fits the nonlinear Hamiltonian systems of wave equations class. The problem of the vibration of a piano string is taken as an example. Nonlinear coupling between longitudinal and transversal modes is modeled in the “geometrically exact model”, or approximations of this model. Numerical results are presented.},
+  KEYWORDS = {Energy preservation ; Nonlinear Hamiltonian systems of wave equations ; Finite elements numerical schemes ; Piano string},
+  PDF = {https://hal.inria.fr/inria-00534473/file/SubCMAME.pdf},
+  HAL_ID = {inria-00534473},
+  HAL_VERSION = {v1},
+  abbr = {CMAME},
+}
+
+
+# ===================================================================
+# ==================== BESSON ==============================
+# ===================================================================
+
+
+@inproceedings{vanbaarsel:hal-03842072,
+  TITLE = {{Understand and predict acoustic properties of heritage instruments: the case of a Besson trumpet of the Mus{\'e}e de la Musique of Paris}},
+  AUTHOR = {van Baarsel, Tobias and Boust, Clotilde and Chabassier, Juliette and Ernoult, Augustin and Jossic, Marguerite and Kirsch, Sebastian and Lambert, Elsa and Viala, Romain},
+  URL = {https://hal.inria.fr/hal-03842072},
+  BOOKTITLE = {{VIENNATALK2020: FOURTH VIENNA TALK ON MUSIC ACOUSTICS}},
+  ADDRESS = {Vienna, Austria},
+  YEAR = {2022},
+  MONTH = Sep,
+  HAL_ID = {hal-03842072},
+  HAL_VERSION = {v1},
+  ABBR = {Vienna Talk 2022},
+  ABSTRACT = {Playing wind historical instruments is often conflicting with conservation and protection of museum collections. Some musical and acoustical properties of these instruments therefore remain unknown. Theoretical models can predict some of these properties from the only knowledge of the instruments geometry. A collaboration between Makutu Inria Bordeaux Sud Ouest team, Musée de la Musique - Philharmonie de Paris, Institut Technologique Européen des Métiers de la Musique (ITEMM) at Le Mans and the Centre de Recherche et de Restauration des Musées de France (C2RMF), lead to a procedure hereby applied to the museum collection Besson, which was a leading manufacture of wind instruments, and more specifically to several natural trumpets dating from the early 20th century. The geometry of the instruments has been measured non invasively by means of X-ray tomography in C2RMF. After extracting their bore (evolution of the inner diameter), their entry impedance has been computed. For one specific trumpet (E.0925), simulated data have been compared to measurements with excellent agreement. Despite many uncertainties on the way these instruments were played, simulated sounds can be computed. An « acoustical facsimile » of E.0925 has been crafted from the X-ray and impedance data, and played by a professional natural trumpet player. This allows to compare simulated sounds with human played sounds.}
+}
+
+
+@inproceedings{vanbaarsel:hal-04272596,
+  TITLE = {{Synth{\`e}se Sonore des Instruments de Musique du Patrimoine}},
+  AUTHOR = {van Baarsel, Tobias and Chabassier, Juliette and Ernoult, Augustin and Jossic, Marguerite and Viala, Romain and Lambert, Elsa},
+  URL = {https://inria.hal.science/hal-04272596},
+  BOOKTITLE = {{MECA-J 2021 - Congr{\`e}s des jeunes chercheurs en m{\'e}canique}},
+  ADDRESS = {En ligne, France},
+  YEAR = {2021},
+  MONTH = Aug,
+  PDF = {https://inria.hal.science/hal-04272596/file/Synth%C3%A8se%20Sonore%20des%20Instruments%20de%20Musique%20du%20Patrimoine.pdf},
+  HAL_ID = {hal-04272596},
+  HAL_VERSION = {v1},
+  abbr = {MECA-J 2021}
+
+}
+
+# ===================================================================
+# ==================== MODELISATION VENTS ===========================
+# ===================================================================
+
+@inproceedings{chabassier:hal-03794382,
+  TITLE = {Control parameters for reed wind instruments or organ pipes with reed induced flow},
+  AUTHOR = {Chabassier, Juliette and Auvray, Roman},
+  URL = {https://hal.archives-ouvertes.fr/hal-03794382},
+  BOOKTITLE = {{DAFx 20in22}},
+  ADDRESS = {Vienna, Austria},
+  YEAR = {2022},
+  MONTH = {Sep},
+  PDF = {https://hal.archives-ouvertes.fr/hal-03794382/file/DAFx20in22_paper_42.pdf},
+  HAL_ID = {hal-03794382},
+  HAL_VERSION = {v1},
+  ABSTRACT = {Sound synthesis of a pipe coupled with a reed requires to finely tune the physical parameters 
+  of the underlying model. Although the pipe geometry is often well known, the 1 degree of freedom reed model's 
+  parameters are effective coefficients (mass, section, etc) and are difficult to assess. Studies of this coupled 
+  system have essentially focused on models without the reed induced flow, and have exhibited two dimensionless
+   parameters, which respectively describe the ratio between feeding pressure and closing reed pressure, 
+   and a dimensionless opening of the reed at rest. Including the reed flow in the model, then performing a 
+   scaling of the equations, leads to a new third dimensionless quantity that we will call kappa. Varying the reed 
+   frequency with constant parameters on different pipe dimensions shows a certain stability of the model once 
+   put under this form. Using a real-time sound synthesis tool, the parameter space is explored while the damping 
+   of the reed is also varied.},
+  ABBR = {DAFx22}
+}
+
+
+@inproceedings{chabassier:ses,
+  TITLE = {{Mod{\'e}liser et simuler les instruments de musique}},
+  AUTHOR = {Chabassier, Juliette},
+  BOOKTITLE = {{Cycle de conférences Science et Société}},
+  ADDRESS = {Nancy, France},
+  YEAR = {2022},
+  MONTH = Sep,
+  abbr = {SES 2022}, 
+  URL = {https://conferences-sciences-et-societe.univ-lorraine.fr/conference/modelisation-et-simulation-numerique-dinstruments-de-musique/},
+  ABSTRACT = {L’acoustique musicale est la discipline qui cherche à expliquer le fonctionnement physique des instruments de musique. Elle se base sur une approche liant les sciences expérimentales, la modélisation mathématique et les techniques de simulation informatique. Les instruments de musique sont hautement complexes et font intervenir des couplages entre des phénomènes physiques variés. Cet exposé tentera de balayer les problématiques rencontrées en matière de modélisation et de simulation des instruments de musique, en mettant l’accent sur la finalité des modèles physiques, leurs forces et faiblesses, et les enjeux dans les contextes de synthèse sonore ou d’aide à la facture instrumentale. Des focus sur certaines parties spécifiques des instruments viendront illustrer le nécessaire compromis entre prédictibilité et efficacité, tandis que des exemples concrets de projets menés en partenariat avec des luthiers ou des musées montreront la richesse mais aussi la difficulté de confronter les modèles aux situations réelles.}
+}
+
+@inproceedings{chabassier:hal-03514411,
+  TITLE = {{Mod{\'e}liser et simuler les instruments de musique}},
+  AUTHOR = {Chabassier, Juliette},
+  URL = {https://hal.archives-ouvertes.fr/hal-03514411},
+  BOOKTITLE = {{Journ{\'e}es d'informatique musicale 2021}},
+  ADDRESS = {visioconference, France},
+  YEAR = {2021},
+  MONTH = Jul,
+  HAL_ID = {hal-03514411},
+  HAL_VERSION = {v1},
+  abbr = {JIM 2021}
+}
+
+@inproceedings{chabassier:mizique,
+  TITLE = {{Mod{\'e}liser et simuler les instruments de musique}},
+  AUTHOR = {Chabassier, Juliette},
+  BOOKTITLE = {{En avant la MIZ'ique}},
+  ADDRESS = {Amiens, France},
+  YEAR = {2022},
+  MONTH = May,
+  abbr = {MIZ 2022}
+}
+
+
+@article{chabassier:hal-03613608,
+  TITLE = {{Direct computation of modal parameters for musical wind instruments}},
+  AUTHOR = {Chabassier, Juliette and Auvray, Roman},
+  URL = {https://hal.inria.fr/hal-03613608},
+  JOURNAL = {{Journal of Sound and Vibration}},
+  PUBLISHER = {{Elsevier}},
+  VOLUME = {528},
+  PAGES = {116775},
+  YEAR = {2022},
+  MONTH = Jun,
+  DOI = {10.1016/j.jsv.2022.116775},
+  HAL_ID = {hal-03613608},
+  HAL_VERSION = {v1},
+  abbr = {JSV},
+  ABSTRACT = {Parameters of modal expressions for the input impedance of wind instruments can be computed from the Telegrapher equations with radiating boundary conditions at the bell. One dimensional finite elements are used for spatial discretization. Provided that the models can be put under a specified form, the modal parameters can be computed directly by solving a generalized eigenvalue problem. Viscothermal effects can also be accounted for, as well as open or closed toneholes. Modal shapes can be visualized along the instrument. Parameters of modal expressions for the input admittance of flute-like instruments can also be computed.}
+}
+
+
+@techreport{chabassier:hal-02019515,
+  TITLE = {{About the transfert matrix method in the context of acoustical wave propagation in wind instruments}},
+  AUTHOR = {Chabassier, Juliette and Tournemenne, Robin},
+  URL = {https://hal.inria.fr/hal-02019515},
+  TYPE = {Research Report},
+  NUMBER = {RR-9254},
+  INSTITUTION = {{INRIA Bordeaux}},
+  YEAR = {2019},
+  MONTH = Feb,
+  KEYWORDS = {Losses ; Transfer matrix ; Input impedance ; Acoustics ; Pertes ; Acoustique ; Matrice de transfer ; Imp{\'e}dance d'entr{\'e}e},
+  PDF = {https://hal.inria.fr/hal-02019515/file/RR_9254.pdf},
+  HAL_ID = {hal-02019515},
+  HAL_VERSION = {v1},
+  abbr = {RR}
+}
+
+@article{tournemenne:hal-01963674,
+  TITLE = {{A comparison of a one-dimensional finite element method and the transfer matrix method for the computation of wind music instrument impedance}},
+  AUTHOR = {Tournemenne, Robin and Chabassier, Juliette},
+  URL = {https://hal.inria.fr/hal-01963674},
+  JOURNAL = {{Acta Acustica united with Acustica}},
+  PUBLISHER = {{Hirzel Verlag}},
+  VOLUME = {105},
+  NUMBER = {5},
+  PAGES = {838},
+  YEAR = {2019},
+  DOI = {10.3813/AAA.919364},
+  ABSTRACT = {This work presents a computation tool for the calculation of wind instrument input impedance in the context of linear planar wave propagation with visco-thermal losses. The originality of the approach lies in the usage of a specific and simple 1D finite element method (FEM). The popular Transfer Matrix Method (TMM) is also recalled and a seamless formulation is proposed which unifies the cases cylinders vs. cones. Visco-thermal losses, which are natural dissipation in the system, are not exactly taken into account by this method when arbitrary shapes are considered. The introduction of an equivalent radius leads to an approximation that we quantify using the FEM method. The equation actually solved by the TMM in this case is exhibited. The accuracy of the two methods (FEM and TMM) and the associated computation times are assessed and compared. Although the TMM is more efficient in lossless cases and for lossy cylinders, the FEM is shown to be more efficient when targeting a specific precision in the realistic case of a lossy trumpet. Some additional features also exhibit the robustness and flexibility of the FEM over the TMM. All the results of this article are computed using the open-source python toolbox OpenWind.},
+  PDF = {https://hal.inria.fr/hal-01963674v2/file/ACTA_major.pdf},
+  HAL_ID = {hal-01963674},
+  HAL_VERSION = {v2},
+  abbr = {AAuA},
+}
+
+@inproceedings{thibault:hal-03132474,
+  TITLE = {{Time-domain simulation of a dissipative reed instrument}},
+  AUTHOR = {Thibault, Alexis and Chabassier, Juliette},
+  URL = {https://hal.inria.fr/hal-03132474},
+  BOOKTITLE = {{e-Forum Acusticum 2020}},
+  ADDRESS = {Lyon, France},
+  YEAR = {2020},
+  MONTH = Dec,
+  HAL_ID = {hal-03132474},
+  HAL_VERSION = {v1},
+  abbr = {FA 2020}
+}
+
+
+@inproceedings{chabassier:hal-01894478,
+  TITLE = {{Simulation de l'imp{\'e}dance d'entr{\'e}e de cuivres par {\'e}l{\'e}ments finis {\`a} une dimension. Comparaison avec les matrices de transfert.}},
+  AUTHOR = {Chabassier, Juliette and Tournemenne, Robin},
+  URL = {https://hal.archives-ouvertes.fr/hal-01894478},
+  BOOKTITLE = {{CFA 2018 - 14{\`e}me Congr{\`e}s Fran{\c c}ais d'Acoustique}},
+  ADDRESS = {Le Havre, France},
+  YEAR = {2018},
+  MONTH = Apr,
+  HAL_ID = {hal-01894478},
+  HAL_VERSION = {v1},
+  abbr = {CFA 2018}
+}
+
+
+
+@inproceedings{ernoult:hal-04217988,
+  TITLE = {{Openwind: a software to simulate wind instruments, as a tool for acoustic teachers}},
+  AUTHOR = {Ernoult, Augustin and Cabaret, J{\'e}r{\'e}my and Chabassier, Juliette},
+  URL = {https://inria.hal.science/hal-04217988},
+  BOOKTITLE = {{Forum Acusticum 2023 - 10th Convention of the European Acoustics Association}},
+  ADDRESS = {Turin, Italy},
+  ORGANIZATION = {{European Acoustics Association}},
+  YEAR = {2023},
+  MONTH = Sep,
+  KEYWORDS = {musical acoustics ; simulation ; graphical user interface},
+  PDF = {https://inria.hal.science/hal-04217988/file/openwind_education.pdf},
+  HAL_ID = {hal-04217988},
+  HAL_VERSION = {v1},
+  abbr = {FA 2023}
+}
+
+@inproceedings{castera:hal-02432750,
+  TITLE = {{The virtual workshop OpenWInD: Towards an optimal design tool of wind instruments for makers}},
+  AUTHOR = {Castera, Guillaume and Chabassier, Juliette and Ernoult, Augustin and Thibault, Alexis and Tournemenne, Robin},
+  URL = {https://hal.archives-ouvertes.fr/hal-02432750},
+  BOOKTITLE = {{ISMA 2019 - International Symposium on Music Acoustics}},
+  ADDRESS = {Detmold, Germany},
+  YEAR = {2019},
+  MONTH = Sep,
+  KEYWORDS = {Reed mechanism ; Finite element method ; Time discretization ; Wind instruments ; Radiation impedance ; openwind},
+  HAL_ID = {hal-02432750},
+  HAL_VERSION = {v1},
+  bibtex_show={true},
+  abbr = {ISMA 2019}
+}
+
+@inproceedings{chabassier:hal-02984478,
+  TITLE = {{The Virtual Workshop OpenWinD : a Python Toolbox Assisting Wind Instrument Makers}},
+  AUTHOR = {Chabassier, Juliette and Ernoult, Augustin and Geber, Olivier and Humeau, Augustin and Thibault, Alexis and Tournemenne, Robin and Van Baarsel, Tobias},
+  URL = {https://hal.archives-ouvertes.fr/hal-02984478},
+  BOOKTITLE = {{e-Forum Acusticum}},
+  ADDRESS = {Lyon / Virtual, France},
+  HAL_LOCAL_REFERENCE = {Instrument making : optimisation, rebuilding, new materials, modelling, cultural heritage},
+  YEAR = {2020},
+  MONTH = Dec,
+  DOI = {10.48465/fa.2020.0568},
+  KEYWORDS = {Openwind},
+  PDF = {https://hal.archives-ouvertes.fr/hal-02984478/file/Openwind.pdf},
+  HAL_ID = {hal-02984478},
+  HAL_VERSION = {v1},
+  abbr = {FA 2020}
+}
+
+
+@inproceedings{bergot:hal-01894472,
+  TITLE = {{Mod{\'e}lisation et simulation transitoires, dissipant une {\'e}nergie, d'ondes acoustiques lin{\'e}aires dans un tuyau rayonnant}},
+  AUTHOR = {Bergot, Morgane and Chabassier, Juliette and Tournemenne, Robin},
+  URL = {https://hal.archives-ouvertes.fr/hal-01894472},
+  BOOKTITLE = {{CFA 2018 - 14{\`e}me Congr{\`e}s Fran{\c c}ais d'Acoustique}},
+  ADDRESS = {Le Havre, France},
+  YEAR = {2018},
+  MONTH = Apr,
+  HAL_ID = {hal-01894472},
+  HAL_VERSION = {v1},
+  abbr = {CFA 2018}
+}
+
+@unpublished{chabassier:hal-01963686,
+  TITLE = {{energy based model and simulation in the time domain of linear acoutic waves in a radiating pipe}},
+  AUTHOR = {Chabassier, Juliette and Bergot, Morgane and Tournemenne, Robin},
+  URL = {https://hal.inria.fr/hal-01963686},
+  NOTE = {working paper or preprint},
+  YEAR = {2018},
+  MONTH = Dec,
+  HAL_ID = {hal-01963686},
+  HAL_VERSION = {v1},
+}
+
+@inproceedings{chabassier:hal-01894465,
+  TITLE = {{L'atelier virtuel : vers une conception optimale d'instruments {\`a} vent {\'e}volutive {\`a} destination des facteurs}},
+  AUTHOR = {Chabassier, Juliette and Tournemenne, Robin},
+  URL = {https://hal.archives-ouvertes.fr/hal-01894465},
+  BOOKTITLE = {{CFA 2018 - 14{\`e}me Congr{\`e}s Fran{\c c}ais d'Acoustique}},
+  ADDRESS = {Le Havre, France},
+  YEAR = {2018},
+  MONTH = Apr,
+  HAL_ID = {hal-01894465},
+  HAL_VERSION = {v1},
+  abbr = {CFA 2018}
+}
+
+
+# ===================================================================
+# ==================== RECONSTRUCTION ===========================
+# ===================================================================
+
+@article{ernoult:hal-03231946,
+  TITLE = {{Full waveform inversion for bore reconstruction of woodwind-like instruments}},
+  ABSTRACT = {The internal geometry of a wind instrument can be estimated from acoustic measurements. For woodwind instruments, this involves characterizing the inner shape (bore) but also the side holes (dimensions and location). In this study, the geometric parameters are recovered by a gradient-based optimization process, which minimizes the deviation between simulated and measured linear acoustic responses of the resonator for several fingerings through an observable function. The acoustic fields are computed by solving a linear system resulting from the 1D spectral finite elements spatial discretization of the wave propagation equations (including thermo-viscous effects, radiation and side holes). The “full waveform inversion” (FWI) technique exploits the fact that the gradient of the cost function can be computed by solving the same linear system as that of the direct problem but with a different source term. The gradient is computed with better accuracy and less additional cost than with finite-difference. The dependence of the cost function on the choice of the observed quantity, the frequency range and the fingerings used, is first analyzed. Then, the FWI is used to reconstruct, from measured impedances, an elementary instrument with 14 design variables. The results, obtained in about 1 minute on a laptop, are in excellent agreement with the direct geometric measurements.},
+  AUTHOR = {Ernoult, Augustin and Chabassier, Juliette and Rodriguez, Samuel and Humeau, Augustin},
+  URL = {https://hal.inria.fr/hal-03231946},
+  JOURNAL = {{Acta Acustica}},
+  PUBLISHER = {{EDP Sciences}},
+  YEAR = {2021},
+  MONTH = Nov,
+  DOI = {10.1051/aacus/2021038},
+  KEYWORDS = {openwind},
+  PDF = {https://hal.inria.fr/hal-03231946v2/file/Ernoult%20et%20al.%20-%202021%20-%20Full%20waveform%20inversion%20for%20bore%20reconstruction%20of.pdf},
+  HAL_ID = {hal-03231946},
+  HAL_VERSION = {v2},
+  selected = {true},
+  abbr = {AA},
+}
+
+@inproceedings{ernoult:hal-02996142,
+  TITLE = {{Bore Reconstruction of Woodwind Instruments Using the Full Waveform Inversion}},
+  AUTHOR = {Ernoult, Augustin and Chabassier, Juliette},
+  URL = {https://hal.inria.fr/hal-02996142},
+  BOOKTITLE = {{e-Forum Acusticum}},
+  ADDRESS = {Lyon / Virtual, France},
+  HAL_LOCAL_REFERENCE = {Instrument making : optimisation, rebuilding, new materials, modelling, cultural heritage},
+  YEAR = {2020},
+  MONTH = Dec,
+  DOI = {10.48465/fa.2020.0161},
+  PDF = {https://hal.inria.fr/hal-02996142/file/FA2020_reconstruction.pdf},
+  HAL_ID = {hal-02996142},
+  HAL_VERSION = {v1},
+  abbr = {FA 2020}
+}
+
+
+
+# ===================================================================
+# ==================== MEDIATION ===========================
+# ===================================================================
+
+@inproceedings{galet:hal-03514473,
+  TITLE = {{Des outils de m{\'e}diation innovants inspir{\'e}s par des travaux de recherche : 3 exemples}},
+  AUTHOR = {Galet, Justine and Rousseau, Antoine and Rivano, Herv{\'e} and Chabassier, Juliette},
+  URL = {https://hal.archives-ouvertes.fr/hal-03514473},
+  BOOKTITLE = {{Science and You}},
+  ADDRESS = {Metz, France},
+  YEAR = {2021},
+  MONTH = Nov,
+  HAL_ID = {hal-03514473},
+  HAL_VERSION = {v1},
+  abbr = {S&Y 2021}
+}
+
+@techreport{chabassier:hal-00913639,
+  TITLE = {{Toucher la corde sensible}},
+  AUTHOR = {Chabassier, Juliette},
+  URL = {https://hal.inria.fr/hal-00913639},
+  TYPE = {Research Report},
+  PUBLISHER = {{GENCI}},
+  INSTITUTION = {{GENCI}},
+  YEAR = {2012},
+  MONTH = Jun,
+  PDF = {https://hal.inria.fr/hal-00913639/file/RA2011-Genci-PianoCT6.pdf},
+  HAL_ID = {hal-00913639},
+  HAL_VERSION = {v1},
+  abbr = {RR}
+}
+
+
+@incollection{chabassier:hal-00913685,
+  TITLE = {{Le piano r{\^e}v{\'e} des math{\'e}maticiens}},
+  AUTHOR = {Chabassier, Juliette},
+  URL = {https://hal.inria.fr/hal-00913685},
+  BOOKTITLE = {{Math{\'e}matiques: l'explosion continue}},
+  EDITOR = {Esteban, Maria J. and Helffer, Bernard and Poggi, Jean-Michel},
+  PUBLISHER = {{FSMP ; SFdS ; SMAI ; SMF}},
+  PAGES = {143-148},
+  YEAR = {2013},
+  MONTH = Nov,
+  HAL_ID = {hal-00913685},
+  HAL_VERSION = {v1},
+}
+
+@article{chabassier:hal-01054389,
+  TITLE = {{Le piano r{\^e}v{\'e} des math{\'e}maticiens}},
+  AUTHOR = {Chabassier, Juliette and Chaigne, Antoine and Durufl{\'e}, Marc and Joly, Patrick},
+  URL = {https://hal.inria.fr/hal-01054389},
+  JOURNAL = {{Interstices}},
+  PUBLISHER = {{INRIA}},
+  YEAR = {2014},
+  MONTH = Apr,
+  KEYWORDS = {modeling ; piano},
+  HAL_ID = {hal-01054389},
+  HAL_VERSION = {v1},
+}
+
+
+@incollection{chabassier:hal-00913678,
+  TITLE = {{Simuler le son d'un piano}},
+  AUTHOR = {Chabassier, Juliette},
+  URL = {https://hal.inria.fr/hal-00913678},
+  BOOKTITLE = {{Math{\'e}matiques de la Plan{\`e}te Terre}},
+  YEAR = {2013},
+  MONTH = Jun,
+  PDF = {https://hal.inria.fr/hal-00913678/file/Breve.pdf},
+  HAL_ID = {hal-00913678},
+  HAL_VERSION = {v1},
+}
+
+
+# ===================================================================
+# ==================== HELIO ===========================
+# ===================================================================
+
+
+@inproceedings{gizon:hal-01264023,
+  TITLE = {{Solving the forward problem of helioseismology in the frequency domain}},
+  AUTHOR = {Gizon, Laurent and Barucq, H{\'e}l{\`e}ne and Durufl{\'e}, Marc and Birch, C. Aaron and Chabassier, Juliette and Fournier, Damien and Hanson, Cristopher},
+  URL = {https://hal.archives-ouvertes.fr/hal-01264023},
+  BOOKTITLE = {{THE 12TH INTERNATIONAL CONFERENCE ON MATHEMATICAL AND NUMERICAL ASPECTS OF WAVE PROPAGATION}},
+  ADDRESS = {Karlsruhe, Germany},
+  YEAR = {2015},
+  MONTH = Jul,
+  PDF = {https://hal.archives-ouvertes.fr/hal-01264023/file/2015-WAVES-Helio.pdf},
+  HAL_ID = {hal-01264023},
+  HAL_VERSION = {v1},
+  abbr = {Waves 2015}
+}
+
+@techreport{chabassier:hal-01833043,
+  TITLE = {{Solving time-harmonic Galbrun's equation with an arbitrary flow. Application to Helioseismology}},
+  AUTHOR = {Chabassier, Juliette and Durufl{\'e}, Marc},
+  URL = {https://hal.inria.fr/hal-01833043},
+  TYPE = {Research Report},
+  NUMBER = {RR-9192},
+  INSTITUTION = {{INRIA Bordeaux}},
+  YEAR = {2018},
+  MONTH = Jul,
+  KEYWORDS = {Finite elements ; Galbrun's equation ; Axisymmetric geometry ; Helioseismology ; Equation de Galbrun ; H{\'e}liosismologie ; El{\'e}ments finis ; G{\'e}om{\'e}trie axisym{\'e}trique},
+  PDF = {https://hal.inria.fr/hal-01833043/file/RR-9192.pdf},
+  HAL_ID = {hal-01833043},
+  HAL_VERSION = {v1},
+  abbr = {RR}
+}
+
+
+
 @techreport{chabassier:hal-01295077,
   TITLE = {{High Order Finite Element Method for solving Convected Helmholtz equation in radial and axisymmetric domains. Application to Helioseismology}},
   AUTHOR = {Chabassier, Juliette and Durufl{\'e}, Marc},
@@ -787,75 +1231,8 @@
   abbr = {RR}
 }
 
-@article{chabassier:hal-00913775,
-  TITLE = {{Time domain simulation of a piano. Part 1 : model description.}},
-  AUTHOR = {Chabassier, Juliette and Chaigne, Antoine and Joly, Patrick},
-  ABSTRACT = {The purpose of this study is the time domain modeling of a piano. We aim at explaining the vibratory and acoustical behavior of the piano, by taking into account the main elements that contribute to sound production. The soundboard is modeled as a bidimensional thick, orthotropic, heterogeneous, frequency dependent damped plate, using Reissner Mindlin equations. The vibroacoustics equations allow the soundboard to radiate into the surrounding air, in which we wish to compute the complete acoustical field around the perfectly rigid rim. The soundboard is also coupled to the strings at the bridge, where they form a slight angle from the horizontal plane. Each string is modeled by a one dimensional damped system of equations, taking into account not only the transversal waves excited by the hammer, but also the stiffness thanks to shear waves, as well as the longitudinal waves arising from geometric nonlinearities. The hammer is given an initial velocity that projects it towards a choir of strings, before being repelled. The interacting force is a nonlinear function of the hammer compression. The final piano model is a coupled system of partial differential equations, each of them exhibiting specific difficulties (nonlinear nature of the string system of equations, frequency dependent damping of the soundboard, great number of unknowns required for the acoustic propagation), in addition to couplings’ inherent difficulties.},
-  URL = {https://hal.inria.fr/hal-00913775},
-  JOURNAL = {{ESAIM: Mathematical Modelling and Numerical Analysis}},
-  PUBLISHER = {{EDP Sciences}},
-  VOLUME = {48},
-  NUMBER = {05},
-  PAGES = {1241-1278},
-  YEAR = {2013},
-  MONTH = Nov,
-  DOI = {10.1051/m2an/2013136},
-  KEYWORDS = {damping mechanisms ; piano ; modeling ; energy ; precursor and phantom partials ; damping mechanisms.},
-  PDF = {https://hal.inria.fr/hal-00913775v2/file/ChabassierChaigneJoly.pdf},
-  HAL_ID = {hal-00913775},
-  HAL_VERSION = {v2},
-  abbr = {M2AN},
-}
-
-@inproceedings{chaigne:hal-00873616,
-  TITLE = {{Modeling the grand piano}},
-  AUTHOR = {Chaigne, Antoine and Chabassier, Juliette and Joly, Patrick},
-  URL = {https://hal.inria.fr/hal-00873616},
-  BOOKTITLE = {{WAVES 13 : 11th International Conference on Mathematical and Numerical Aspects of Waves}},
-  ADDRESS = {Tunis, Tunisia},
-  YEAR = {2013},
-  MONTH = Jun,
-  KEYWORDS = {piano modeling ; time domain},
-  PDF = {https://hal.inria.fr/hal-00873616/file/waves2013_submission_154.pdf},
-  HAL_ID = {hal-00873616},
-  HAL_VERSION = {v1},
-  abbr = {Waves 2013}
-}
 
 
-@inproceedings{chaigne:hal-00873639,
-  TITLE = {{Acoustics of pianos: physical modeling, simulations and experiments}},
-  AUTHOR = {Chaigne, Antoine and Chabassier, Juliette and Burban, Nicolas},
-  URL = {https://hal.inria.fr/hal-00873639},
-  BOOKTITLE = {{SMAC 2013 - Stockholm Music Acoustics Conference 2013}},
-  ADDRESS = {Stockholm, Sweden},
-  ORGANIZATION = {{KTH Royal Institute of Technology}},
-  YEAR = {2013},
-  MONTH = Jul,
-  PDF = {https://hal.inria.fr/hal-00873639/file/Piano-Chaigne-SMAC13.pdf},
-  HAL_ID = {hal-00873639},
-  HAL_VERSION = {v1},
-  abbr = {SMAC 2013}
-}
-
-@article{chabassier:hal-00873089,
-  TITLE = {{Modeling and simulation of a grand piano}},
-  AUTHOR = {Chabassier, Juliette and Joly, Patrick and Chaigne, Antoine},
-  ABSTRACT = {A time-domain global modeling of a grand piano is presented. The string model includes internal losses, stiffness, and geometrical nonlinearity. The hammer-string interaction is governed by a nonlinear dissipative compression force. The soundboard is modeled as a dissipative bidimensional orthotropic Reissner–Mindlin plate where the presence of ribs and bridges is treated as local heterogeneities. The coupling between strings and soundboard at the bridge allows the transmission of both transverse and longitudinal waves to the soundboard. The soundboard is coupled to the acoustic field, whereas all other parts of the structure are supposed to be perfectly rigid. The acoustic field is bounded artificially using perfectly matched layers. The discrete form of the equations is based on original energy preserving schemes. Artificial decoupling is achieved, through the use of Schur complements and Lagrange multipliers, so that each variable of the problem can be updated separately at each time step. The capability of the model is highlighted by series of simulations in the low, medium, and high register, and through comparisons with waveforms recorded on a Steinway D piano. Its ability to account for phantom partials and precursors, consecutive to string nonlinearity and inharmonicity, is particularly emphasized.},
-  URL = {https://hal.inria.fr/hal-00873089},
-  JOURNAL = {{Journal of the Acoustical Society of America}},
-  PUBLISHER = {{Acoustical Society of America}},
-  VOLUME = {134},
-  PAGES = {648},
-  YEAR = {2013},
-  MONTH = Jul,
-  DOI = {10.1121/1.4809649},
-  KEYWORDS = {piano modeling ; time domain ; nonlinear strings ; nonlinear precursor ; phantom partials ; energy preserving schemes},
-  PDF = {https://hal.inria.fr/hal-00873089/file/Piano-model-revis.pdf},
-  HAL_ID = {hal-00873089},
-  HAL_VERSION = {v1},
-  abbr = {JASA},
-}
 
 @article{chabassier:hal-02320521,
   TITLE = {{Equivalent boundary conditions for acoustic media with exponential densities. Application to the atmosphere in helioseismology}},
@@ -993,6 +1370,30 @@ Conclusions. The method presented here is computationally efficient and will be 
   abbr = {WONAPDE 2016}
 }
 
+
+
+# ===================================================================
+# ==================== SCATTERING ===========================
+# ===================================================================
+
+
+@techreport{barucq:hal-01408904,
+  TITLE = {{A study of the numerical robustness of single-layer method with Fourier basis for multiple obstacle scattering in homogeneous media}},
+  AUTHOR = {Barucq, H{\'e}l{\`e}ne and Chabassier, Juliette and Pham, Ha and Tordeux, S{\'e}bastien},
+  URL = {https://hal.inria.fr/hal-01408904},
+  TYPE = {Research Report},
+  NUMBER = {RR-8988},
+  INSTITUTION = {{Inria Bordeaux Sud-Ouest}},
+  YEAR = {2016},
+  MONTH = Dec,
+  KEYWORDS = {single layer methods ; preconditioning in multiple scattering ; acoustic scattering ; multiple scattering ; integral equation methods ; small obstacles acoustic scattering ; potentiel de simple couche ; solveur it{\'e}ratifs ; diffraction multiples ; diffraction multiple par des disques ; diffraction des petites obstacles},
+  PDF = {https://hal.inria.fr/hal-01408904/file/RR-8988.pdf},
+  HAL_ID = {hal-01408904},
+  HAL_VERSION = {v1},
+  abbr = {RR}
+}
+
+
 @inproceedings{barucq:hal-01674521,
   TITLE = {{Numerical Robustness of Single Layer method with Fourier basis in 2D multiple obstacle scattering}},
   AUTHOR = {Barucq, H{\'e}l{\`e}ne and Pham, Ha and Chabassier, Juliette and Tordeux, S{\'e}bastien},
@@ -1007,6 +1408,20 @@ Conclusions. The method presented here is computationally efficient and will be 
   abbr = {Waves 2017}
 }
 
+
+@inproceedings{barucq:hal-00873633,
+  TITLE = {{Numerical Analysis of a reduced formulation of an elasto-acoustic scattering problem}},
+  AUTHOR = {Barucq, H{\'e}l{\`e}ne and Chabassier, Juliette and Diaz, Julien and Estecahandy, Elodie},
+  URL = {https://hal.inria.fr/hal-00873633},
+  BOOKTITLE = {{WAVES 13 : 11th International Conference on Mathematical and Numerical Aspects of Waves}},
+  ADDRESS = {Gammarth, Tunisia},
+  YEAR = {2013},
+  MONTH = Jun,
+  PDF = {https://hal.inria.fr/hal-00873633/file/waves2013_submission_93.pdf},
+  HAL_ID = {hal-00873633},
+  HAL_VERSION = {v1},
+  abbr = {Waves 2013}
+}
 
 @article{barucq:hal-01667176,
   TITLE = {{Numerical robustness of single-layer method with Fourier basis for multiple obstacle acoustic scattering in homogeneous media}},
@@ -1026,342 +1441,57 @@ Conclusions. The method presented here is computationally efficient and will be 
   abbr = {WaMot},
 }
 
-@inproceedings{chabassier:hal-01894478,
-  TITLE = {{Simulation de l'imp{\'e}dance d'entr{\'e}e de cuivres par {\'e}l{\'e}ments finis {\`a} une dimension. Comparaison avec les matrices de transfert.}},
-  AUTHOR = {Chabassier, Juliette and Tournemenne, Robin},
-  URL = {https://hal.archives-ouvertes.fr/hal-01894478},
-  BOOKTITLE = {{CFA 2018 - 14{\`e}me Congr{\`e}s Fran{\c c}ais d'Acoustique}},
-  ADDRESS = {Le Havre, France},
-  YEAR = {2018},
+
+
+# ===================================================================
+# ==================== CLA ORDRE ELEVE ===========================
+# ===================================================================
+
+
+@inproceedings{barucq:hal-01184102,
+  TITLE = {{Performance assessments of absorbing conditions for the reverse time-harmonic migration}},
+  AUTHOR = {Barucq, H{\'e}l{\`e}ne and Bergot, Morgane and Chabassier, Juliette and Diaz, Julien},
+  URL = {https://hal.inria.fr/hal-01184102},
+  BOOKTITLE = {{PANACM 2015 - 1st Pan-American Congress on Computational Mechanic}},
+  ADDRESS = {Buenos Aires, Argentina},
+  PAGES = {1-8},
+  YEAR = {2015},
   MONTH = Apr,
-  HAL_ID = {hal-01894478},
+  KEYWORDS = {Wave Propagation ; Numerical Simulation ; Reverse Time Migration ; Absorbing Boundary Condition},
+  PDF = {https://hal.inria.fr/hal-01184102/file/PANACM-SUBMITTED.pdf},
+  HAL_ID = {hal-01184102},
   HAL_VERSION = {v1},
-  abbr = {CFA 2018}
+  abbr = {PANACM 2015}
 }
 
-@article{chabassier:hal-01421882,
-  TITLE = {{Space/Time convergence analysis of a class of conservative schemes for linear wave equations}},
-  AUTHOR = {Chabassier, Juliette and Imperiale, Sebastien},
-  ABSTRACT = {This paper concerns the space/time convergence analysis of conservative two-step time discretizations for linear wave equations. Explicit and implicit, second- and fourth-order schemes are considered, while the space discretization is given and satisfies minimal hypotheses. Convergence analysis is done using energy techniques and holds if the time step is upper-bounded by a quantity depending on space discretization parameters. In addition to showing the convergence for recently introduced fourth-order schemes, the novelty of this work consists in the independency of the convergence estimates with respect to the difference between the time step and its greatest admissible value.},
-  URL = {https://hal.inria.fr/hal-01421882},
-  JOURNAL = {{Comptes Rendus. Math{\'e}matique}},
-  PUBLISHER = {{Acad{\'e}mie des sciences (Paris)}},
-  VOLUME = {355},
-  NUMBER = {3},
-  PAGES = {282-289},
-  YEAR = {2017},
-  MONTH = Mar,
-  DOI = {10.1016/j.crma.2016.12.009},
-  PDF = {https://hal.inria.fr/hal-01421882/file/Analyse.pdf},
-  HAL_ID = {hal-01421882},
-  HAL_VERSION = {v1},
-  abbr = {CRAS},
-}
-
-@techreport{chabassier:hal-02019515,
-  TITLE = {{About the transfert matrix method in the context of acoustical wave propagation in wind instruments}},
-  AUTHOR = {Chabassier, Juliette and Tournemenne, Robin},
-  URL = {https://hal.inria.fr/hal-02019515},
+@techreport{barucq:hal-01085180,
+  TITLE = {{Derivation of high order absorbing boundary conditions for the Helmholtz equation in 2D}},
+  AUTHOR = {Barucq, H{\'e}l{\`e}ne and Bergot, Morgane and Chabassier, Juliette and Estecahandy, Elodie},
+  URL = {https://hal.inria.fr/hal-01085180},
   TYPE = {Research Report},
-  NUMBER = {RR-9254},
-  INSTITUTION = {{INRIA Bordeaux}},
-  YEAR = {2019},
-  MONTH = Feb,
-  KEYWORDS = {Losses ; Transfer matrix ; Input impedance ; Acoustics ; Pertes ; Acoustique ; Matrice de transfer ; Imp{\'e}dance d'entr{\'e}e},
-  PDF = {https://hal.inria.fr/hal-02019515/file/RR_9254.pdf},
-  HAL_ID = {hal-02019515},
+  NUMBER = {RR-8632},
+  INSTITUTION = {{INRIA Bordeaux ; INRIA}},
+  YEAR = {2014},
+  MONTH = Nov,
+  KEYWORDS = {Absorbing Boundary Conditions ; numerical analysis},
+  PDF = {https://hal.inria.fr/hal-01085180/file/RR-8632.pdf},
+  HAL_ID = {hal-01085180},
   HAL_VERSION = {v1},
   abbr = {RR}
 }
 
-@article{tournemenne:hal-01963674,
-  TITLE = {{A comparison of a one-dimensional finite element method and the transfer matrix method for the computation of wind music instrument impedance}},
-  AUTHOR = {Tournemenne, Robin and Chabassier, Juliette},
-  URL = {https://hal.inria.fr/hal-01963674},
-  JOURNAL = {{Acta Acustica united with Acustica}},
-  PUBLISHER = {{Hirzel Verlag}},
-  VOLUME = {105},
-  NUMBER = {5},
-  PAGES = {838},
-  YEAR = {2019},
-  DOI = {10.3813/AAA.919364},
-  ABSTRACT = {This work presents a computation tool for the calculation of wind instrument input impedance in the context of linear planar wave propagation with visco-thermal losses. The originality of the approach lies in the usage of a specific and simple 1D finite element method (FEM). The popular Transfer Matrix Method (TMM) is also recalled and a seamless formulation is proposed which unifies the cases cylinders vs. cones. Visco-thermal losses, which are natural dissipation in the system, are not exactly taken into account by this method when arbitrary shapes are considered. The introduction of an equivalent radius leads to an approximation that we quantify using the FEM method. The equation actually solved by the TMM in this case is exhibited. The accuracy of the two methods (FEM and TMM) and the associated computation times are assessed and compared. Although the TMM is more efficient in lossless cases and for lossy cylinders, the FEM is shown to be more efficient when targeting a specific precision in the realistic case of a lossy trumpet. Some additional features also exhibit the robustness and flexibility of the FEM over the TMM. All the results of this article are computed using the open-source python toolbox OpenWind.},
-  PDF = {https://hal.inria.fr/hal-01963674v2/file/ACTA_major.pdf},
-  HAL_ID = {hal-01963674},
-  HAL_VERSION = {v2},
-  abbr = {AAuA},
-}
-
-@inproceedings{thibault:hal-03132474,
-  TITLE = {{Time-domain simulation of a dissipative reed instrument}},
-  AUTHOR = {Thibault, Alexis and Chabassier, Juliette},
-  URL = {https://hal.inria.fr/hal-03132474},
-  BOOKTITLE = {{e-Forum Acusticum 2020}},
-  ADDRESS = {Lyon, France},
-  YEAR = {2020},
-  MONTH = Dec,
-  HAL_ID = {hal-03132474},
-  HAL_VERSION = {v1},
-  abbr = {FA 2020}
-}
-
-@inproceedings{chabassier:hal-00539771,
-  TITLE = {{Transitoires de piano et non-lin{\'e}arit{\'e}s des cordes : mesures et simulations}},
-  AUTHOR = {Chabassier, Juliette and Chaigne, Antoine and Joly, Patrick},
-  URL = {https://hal.archives-ouvertes.fr/hal-00539771},
-  BOOKTITLE = {{10{\`e}me Congr{\`e}s Fran{\c c}ais d'Acoustique}},
-  ADDRESS = {Lyon, France},
-  EDITOR = {Soci{\'e}t{\'e} Fran{\c c}aise d'Acoustique - SFA},
-  PAGES = {-},
-  YEAR = {2010},
-  MONTH = Apr,
-  PDF = {https://hal.archives-ouvertes.fr/hal-00539771/file/000225.pdf},
-  HAL_ID = {hal-00539771},
-  HAL_VERSION = {v1},
-  abbr = {CFA 2010}
-}
-
-
-@article{chabassier:inria-00534473,
-  TITLE = {{Energy preserving schemes for nonlinear Hamiltonian systems of wave equations: Application to the vibrating piano string}},
-  AUTHOR = {Chabassier, Juliette and Joly, Patrick},
-  URL = {https://hal.inria.fr/inria-00534473},
-  JOURNAL = {{Computer Methods in Applied Mechanics and Engineering}},
-  PUBLISHER = {{Elsevier}},
-  VOLUME = {199},
-  NUMBER = {45-48},
-  PAGES = {2779-2795},
-  YEAR = {2010},
-  DOI = {10.1016/j.cma.2010.04.013},
-  ABSTRACT = {This paper considers a general class of nonlinear systems, “nonlinear Hamiltonian systems of wave equations”. The first part of our work focuses on the mathematical study of these systems, showing central properties (energy preservation, stability, hyperbolicity, finite propagation velocity, etc.). Space discretization is made in a classical way (variational formulation) and time discretization aims at numerical stability using an energy technique. A definition of “preserving schemes” is introduced, and we show that explicit schemes or partially implicit schemes which are preserving according to this definition cannot be built unless the model is trivial. A general energy preserving second order accurate fully implicit scheme is built for any continuous system that fits the nonlinear Hamiltonian systems of wave equations class. The problem of the vibration of a piano string is taken as an example. Nonlinear coupling between longitudinal and transversal modes is modeled in the “geometrically exact model”, or approximations of this model. Numerical results are presented.},
-  KEYWORDS = {Energy preservation ; Nonlinear Hamiltonian systems of wave equations ; Finite elements numerical schemes ; Piano string},
-  PDF = {https://hal.inria.fr/inria-00534473/file/SubCMAME.pdf},
-  HAL_ID = {inria-00534473},
-  HAL_VERSION = {v1},
-  abbr = {CMAME},
-}
-
-@article{thibault:hal-03328715,
-  TITLE = {{Dissipative time-domain one-dimensional model for viscothermal acoustic propagation in wind instruments.}},
-  AUTHOR = {Thibault, Alexis and Chabassier, Juliette},
-  URL = {https://hal.archives-ouvertes.fr/hal-03328715},
-  NOTE = {Copyright 2021 Acoustical Society of America. This article may be downloaded for personal use only. Any other use requires prior permission of the author and the Acoustical Society of America.The following article appeared in Thibault, A., \\& Chabassier, J. (2021). Dissipative time-domain one-dimensional model for viscothermal acoustic propagation in wind instruments. The Journal of the Acoustical Society of America, 150(2), 1165-1175 and may be found at https://doi.org/10.1121/10.0005537 .},
-  abstract = {Accurate modeling of the acoustic propagation in tubes of varying cross section in musical acoustics must include the effects of the viscous and thermal boundary layers. Models of viscothermal losses are classically written in the frequency domain. An approximate time-domain model is proposed in which all of the physical parameters of the instrument, the bore shape or the wave celerity, are explicit coefficients. The model depends on absolute tabulated constants, which only reflect that the pipe is axisymmetric. It can be understood as a telegrapher's equations augmented by an adjustable number of auxiliary unknowns. A global energy is dissipated. A time discretization based on variational approximation is proposed along with numerical experiments and comparisons with other models.},
-  JOURNAL = {{Journal of the Acoustical Society of America}},
-  PUBLISHER = {{Acoustical Society of America}},
-  VOLUME = {150},
-  NUMBER = {2},
-  PAGES = {1165-1175},
-  YEAR = {2021},
-  MONTH = Aug,
-  DOI = {10.1121/10.0005537},
-  PDF = {https://hal.archives-ouvertes.fr/hal-03328715/file/Manuscript%20%281%29.pdf},
-  HAL_ID = {hal-03328715},
-  HAL_VERSION = {v1},
-  bibtex_show={true},
-  html = {https://doi.org/10.1121/10.0005537},
-  abbr={JASA}
-}
-
-@article{chabassier:hal-01222072,
-  TITLE = {{Fourth order energy-preserving locally implicit time discretization for linear wave equations}},
-  AUTHOR = {Chabassier, Juliette and Imperiale, S{\'e}bastien},
-  ABSTRACT = {A family of fourth-order coupled implicit–explicit time schemes is presented as a special case of fourth-order coupled implicit schemes for linear wave equations. The domain of interest is decomposed into several regions where different fourth-order time discretizations are used, chosen among a family of implicit or explicit fourth-order schemes. The coupling is based on a Lagrangian formulation on the boundaries between the several non-conforming meshes of the regions. A global discrete energy is shown to be preserved and leads to global fourth-order consistency in time. Numerical results in 1D and 2D for the acoustic and elastodynamics equations illustrate the good behavior of the schemes and their potential for the simulation of realistic highly heterogeneous media or strongly refined geometries, for which using everywhere an explicit scheme can be extremely penalizing. Accuracy up to fourth order reduces the numerical dispersion inherent to implicit methods used with a large time step and makes this family of schemes attractive compared with second-order accurate methods.},
-  URL = {https://hal.inria.fr/hal-01222072},
-  JOURNAL = {{International Journal for Numerical Methods in Engineering}},
-  PUBLISHER = {{Wiley}},
-  YEAR = {2015},
-  DOI = {10.1002/nme.5130},
-  KEYWORDS = {Consistency analysis ; Time discretization ; Wave equations ; Locally implicit schemes ; High-order numerical methods},
-  PDF = {https://hal.inria.fr/hal-01222072/file/ChaImpHal.pdf},
-  HAL_ID = {hal-01222072},
-  HAL_VERSION = {v1},
-  abbr = {IJNME},
-}
-
-@inproceedings{chabassier:hal-01067115,
-  TITLE = {{Fourth order energy-preserving localy implicit discretization for linear wave equations}},
-  AUTHOR = {Chabassier, Juliette and Imperiale, S{\'e}bastien},
-  URL = {https://hal.inria.fr/hal-01067115},
-  BOOKTITLE = {{SECOND FRENCH-RUSSIAN WORKSHOP ON COMPUTATIONAL GEOPHYSICS}},
-  ADDRESS = {Novosibirsk, Russia},
-  YEAR = {2014},
-  MONTH = Sep,
-  KEYWORDS = {locally implicit schemes ; high order implicit schemes ; time discretisation ; high order implicit schemes.},
-  PDF = {https://hal.inria.fr/hal-01067115/file/abstract.pdf},
-  HAL_ID = {hal-01067115},
-  HAL_VERSION = {v1},
-  abbr = {2d FRWCG}
-}
-
-
-@inproceedings{chabassier:hal-01264044,
-  TITLE = {{Fourth-order energy-preserving locally implicit time discretization for linear wave equations}},
-  AUTHOR = {Chabassier, Juliette and Imperiale, Sebastien},
-  URL = {https://hal.archives-ouvertes.fr/hal-01264044},
-  BOOKTITLE = {{WAVES 2015 - The 12th international conference on mathematical and numerical aspects of wave propagation}},
+@inproceedings{barucq:hal-01264019,
+  TITLE = {{High Order Absorbing Boundary Conditions for the 2D Helmholtz Equation}},
+  AUTHOR = {Barucq, H{\'e}l{\`e}ne and Chabassier, Juliette and Bergot, Morgane},
+  URL = {https://hal.archives-ouvertes.fr/hal-01264019},
+  BOOKTITLE = {{THE 12TH INTERNATIONAL CONFERENCE ON MATHEMATICAL AND NUMERICAL ASPECTS OF WAVE PROPAGATION}},
   ADDRESS = {Karlsruhe, Germany},
   YEAR = {2015},
   MONTH = Jul,
-  DOI = {10.1002/nme.5130},
-  KEYWORDS = {High-order numerical methods ; Time discretization ; Locally implicit schemes},
-  PDF = {https://hal.archives-ouvertes.fr/hal-01264044/file/2015-WAVES-LOCIM.pdf},
-  HAL_ID = {hal-01264044},
+  KEYWORDS = {high-order approximation ; Helmholtz equation ; absorbing boundary conditions},
+  PDF = {https://hal.archives-ouvertes.fr/hal-01264019/file/2015-WAVES-CLA.pdf},
+  HAL_ID = {hal-01264019},
   HAL_VERSION = {v1},
   abbr = {Waves 2015}
 }
 
-@inproceedings{chabassier:hal-01051808,
-  TITLE = {{High order theta schemes for linear wave equation}},
-  AUTHOR = {Chabassier, Juliette and Imperiale, S.},
-  URL = {https://hal.archives-ouvertes.fr/hal-01051808},
-  BOOKTITLE = {{11th world congress on computational mechanics (WCCM)}},
-  ADDRESS = {Barcelone, Spain},
-  PAGES = {1-2},
-  YEAR = {2014},
-  MONTH = Jul,
-  KEYWORDS = {Implicit Schemes ; High Order Methods ; Modified Equation ; Optimization ; Super Convergence ; Consistency},
-  HAL_ID = {hal-01051808},
-  HAL_VERSION = {v1},
-  abbr = {WCCM 2014}
-}
-
-@inproceedings{chabassier:hal-01051803,
-  TITLE = {{Introduction and study of fourth order theta schemes for linear wave equations}},
-  AUTHOR = {Chabassier, Juliette and Imperiale, S.},
-  URL = {https://hal.archives-ouvertes.fr/hal-01051803},
-  NOTE = {COM},
-  BOOKTITLE = {{Journ{\'e}es Ondes du Sud-Ouest}},
-  ADDRESS = {Toulouse, France},
-  YEAR = {2014},
-  MONTH = Feb,
-  HAL_ID = {hal-01051803},
-  HAL_VERSION = {v1},
-  abbr = {JOSO 2014}
-}
-
-@article{chabassier:hal-00873048,
-  TITLE = {{Introduction and study of fourth order theta schemes for linear wave equations}},
-  AUTHOR = {Chabassier, Juliette and Imperiale, S{\'e}bastien},
-  URL = {https://hal.inria.fr/hal-00873048},
-  JOURNAL = {{Journal of Computational and Applied Mathematics}},
-  PUBLISHER = {{Elsevier}},
-  VOLUME = {245},
-  PAGES = {194-212},
-  YEAR = {2013},
-  MONTH = Jan,
-  DOI = {10.1016/j.cam.2012.12.023},
-  ABSTRACT = {A new class of high order, implicit, three time step schemes for semi-discretized wave equations is introduced and studied. These schemes are constructed using the modified equation approach, generalizing the $\theta$-scheme. Their stability properties are investigated via an energy analysis, which enables us to design super-convergent schemes and also optimal stable schemes in terms of consistency errors. Specific numerical algorithms for the fully discrete problem are tested and discussed, showing the efficiency of our approach compared to second order $\theta$-schemes.},
-  KEYWORDS = {Modified equation ; Theta-scheme ; Time discretization ; Wave equations ; High order numerical methods},
-  PDF = {https://hal.inria.fr/hal-00873048/file/theta_submission_rev_2.pdf},
-  HAL_ID = {hal-00873048},
-  HAL_VERSION = {v1},
-  abbr = {JCAM},
-}
-
-@article{chabassier:hal-01894238,
-  TITLE = {{Construction and analysis of fourth order, energy consistent, family of explicit time discretizations for dissipative linear wave equations}},
-  AUTHOR = {Chabassier, Juliette and Diaz, Julien and Imperiale, S{\'e}bastien},
-  ABSTRACT = {This paper deals with the construction of a family of fourth order, energy consistent, explicit time discretizations for dissipative linear wave equations. The schemes are obtained by replacing the inversion of a matrix, that comes naturally after using the technique of the Modified Equation on the second order Leap Frog scheme applied to dissipative linear wave equations, by explicit approximations of its inverse. The stability of the schemes are studied using an energy analysis and a convergence analysis is carried out. Numerical results in 1D illustrate the space/time convergence properties of the schemes and their efficiency is compared to more classical time discretizations.},
-  URL = {https://hal.inria.fr/hal-01894238},
-  JOURNAL = {{ESAIM: Mathematical Modelling and Numerical Analysis}},
-  PUBLISHER = {{EDP Sciences}},
-  VOLUME = {54},
-  NUMBER = {3},
-  PAGES = {845-878},
-  YEAR = {2020},
-  MONTH = May,
-  DOI = {10.1051/m2an/2019079},
-  KEYWORDS = {High order time discretisation ; Dissipative linear wave equation ; Energy analysis},
-  PDF = {https://hal.inria.fr/hal-01894238v2/file/main.pdf},
-  HAL_ID = {hal-01894238},
-  HAL_VERSION = {v2},
-  abbr = {M2AN}
-}
-
-@inproceedings{elie:hal-02281818,
-  TITLE = {{MAESSTRO: A sound synthesis framework for Computer-Aided Design of piano soundboards}},
-  AUTHOR = {Elie, Benjamin and Boutillon, Xavier and Chabassier, Juliette and Ege, Kerem and Laulagnet, Bernard and Tr{\'e}visan, Benjamin and Cott{\'e}, Benjamin and Chauvat, Nicolas},
-  URL = {https://hal.archives-ouvertes.fr/hal-02281818},
-  BOOKTITLE = {{ISMA 2019}},
-  ADDRESS = {Detmold, Germany},
-  YEAR = {2019},
-  MONTH = Sep,
-  KEYWORDS = {Piano soundboard ; Assistance to musical instrument manufacturing ; Sound synthesis},
-  PDF = {https://hal.archives-ouvertes.fr/hal-02281818v2/file/ISMA_MAESSTRO.pdf},
-  HAL_ID = {hal-02281818},
-  HAL_VERSION = {v2},
-  abbr = {ISMA 2019}
-}
-
-@article{chabassier:hal-03309010,
-  TITLE = {{Construction and convergence analysis of conservative second order local time discretisation for linear wave equations}},
-  ABSTRACT = {In this work we present and analyse a time discretisation strategy for linear wave equations t hat aims at using locally in space the most adapted time discretisation among a family of implicit or explicit centered second order schemes. The proposed family of schemes is adapted to domain decomposition methods such as the mortar element method. They correspond in that case to local implicit schemes and to local time stepping. We show that, if some regularity properties of the solution are satisfied and if the time step verifies a stability condition, then the family of proposed time discretisations provides, in a strong norm, second order space-time convergence. Finally, we provide 1D and 2D numerical illustrations that confirm the obtained theoretical results and we compare our approach on 1D test cases to other existing local time stepping strategies for wave equations.},
-  AUTHOR = {Chabassier, Juliette and Imperiale, S{\'e}bastien},
-  URL = {https://hal.archives-ouvertes.fr/hal-03309010},
-  JOURNAL = {{ESAIM: Mathematical Modelling and Numerical Analysis}},
-  PUBLISHER = {{EDP Sciences}},
-  VOLUME = {55},
-  NUMBER = {4},
-  PAGES = {1507-1543},
-  YEAR = {2021},
-  MONTH = Jul,
-  DOI = {10.1051/m2an/2021030},
-  KEYWORDS = {Wave equations ; Time discretisation ; Converge analysis ; Local implicit scheme ; Local time stepping},
-  PDF = {https://hal.archives-ouvertes.fr/hal-03309010/file/m2an200139.pdf},
-  HAL_ID = {hal-03309010},
-  HAL_VERSION = {v1},
-  abbr = {M2AN},
-  selected = {true}
-}
-
-@techreport{chabassier:hal-02917351,
-  TITLE = {{Viscothermal models for wind musical instruments}},
-  AUTHOR = {Chabassier, Juliette and Thibault, Alexis},
-  URL = {https://hal.inria.fr/hal-02917351},
-  TYPE = {Research Report},
-  NUMBER = {RR-9356},
-  INSTITUTION = {{Inria Bordeaux Sud-Ouest}},
-  YEAR = {2020},
-  MONTH = Aug,
-  KEYWORDS = {Model error ; Pipe modelling ; Linear acoustic wave propagation ; Viscothermal boundary layers ; Erreur de mod{\`e}le ; Mod{\'e}lisation de tuyau ; Propagation d'ondes acoustiques lin{\'e}aires ; Couches limites viscothermiques},
-  PDF = {https://hal.inria.fr/hal-02917351v2/file/RR-9356v2hal.pdf},
-  HAL_ID = {hal-02917351},
-  HAL_VERSION = {v2},
-  abbr = {RR}
-}
-
-@article{ernoult:hal-03231946,
-  TITLE = {{Full waveform inversion for bore reconstruction of woodwind-like instruments}},
-  ABSTRACT = {The internal geometry of a wind instrument can be estimated from acoustic measurements. For woodwind instruments, this involves characterizing the inner shape (bore) but also the side holes (dimensions and location). In this study, the geometric parameters are recovered by a gradient-based optimization process, which minimizes the deviation between simulated and measured linear acoustic responses of the resonator for several fingerings through an observable function. The acoustic fields are computed by solving a linear system resulting from the 1D spectral finite elements spatial discretization of the wave propagation equations (including thermo-viscous effects, radiation and side holes). The “full waveform inversion” (FWI) technique exploits the fact that the gradient of the cost function can be computed by solving the same linear system as that of the direct problem but with a different source term. The gradient is computed with better accuracy and less additional cost than with finite-difference. The dependence of the cost function on the choice of the observed quantity, the frequency range and the fingerings used, is first analyzed. Then, the FWI is used to reconstruct, from measured impedances, an elementary instrument with 14 design variables. The results, obtained in about 1 minute on a laptop, are in excellent agreement with the direct geometric measurements.},
-  AUTHOR = {Ernoult, Augustin and Chabassier, Juliette and Rodriguez, Samuel and Humeau, Augustin},
-  URL = {https://hal.inria.fr/hal-03231946},
-  JOURNAL = {{Acta Acustica}},
-  PUBLISHER = {{EDP Sciences}},
-  YEAR = {2021},
-  MONTH = Nov,
-  DOI = {10.1051/aacus/2021038},
-  KEYWORDS = {openwind},
-  PDF = {https://hal.inria.fr/hal-03231946v2/file/Ernoult%20et%20al.%20-%202021%20-%20Full%20waveform%20inversion%20for%20bore%20reconstruction%20of.pdf},
-  HAL_ID = {hal-03231946},
-  HAL_VERSION = {v2},
-  selected = {true},
-  abbr = {AA},
-}
-
-@article{chabassier:hal-03613608,
-  TITLE = {{Direct computation of modal parameters for musical wind instruments}},
-  AUTHOR = {Chabassier, Juliette and Auvray, Roman},
-  URL = {https://hal.inria.fr/hal-03613608},
-  JOURNAL = {{Journal of Sound and Vibration}},
-  PUBLISHER = {{Elsevier}},
-  VOLUME = {528},
-  PAGES = {116775},
-  YEAR = {2022},
-  MONTH = Jun,
-  DOI = {10.1016/j.jsv.2022.116775},
-  HAL_ID = {hal-03613608},
-  HAL_VERSION = {v1},
-  abbr = {JSV},
-  ABSTRACT = {Parameters of modal expressions for the input impedance of wind instruments can be computed from the Telegrapher equations with radiating boundary conditions at the bell. One dimensional finite elements are used for spatial discretization. Provided that the models can be put under a specified form, the modal parameters can be computed directly by solving a generalized eigenvalue problem. Viscothermal effects can also be accounted for, as well as open or closed toneholes. Modal shapes can be visualized along the instrument. Parameters of modal expressions for the input admittance of flute-like instruments can also be computed.}
-}
