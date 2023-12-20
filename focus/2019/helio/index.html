@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en, fr">
+
+  <!-- Head -->
+  <head>        
+    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Juliette  Chabassier | Modeling and simulation in helioseismology</title>
+    <meta name="author" content="Juliette  Chabassier" />
+    <meta name="description" content="Some contributions for the computation of wave propagation in the Sun" />
+    <meta name="keywords" content="musical acoustics, numerical analysis, computational acoustics, musical instruments" />
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+    <!-- Styles -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎺</text></svg>">
+    <link rel="stylesheet" href="/public/assets/css/main.css">
+    <link rel="canonical" href="http://juliettechabassier.perso.math.cnrs.fr/public/focus/2019/helio/">
+
+    <!-- Dark Mode -->
+    <script src="/public/assets/js/theme.js"></script>
+    <script src="/public/assets/js/dark_mode.js"></script>
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="http://juliettechabassier.perso.math.cnrs.fr/public/">Juliette   <span class="font-weight-bold">Chabassier</span></a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/public/">about</a>
+              </li>
+              
+              <!-- Blog -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/public/focus/">focus</a>
+              </li>
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/public/communications/">communications</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/public/projects/">projects</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/public/publications/">publications</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <div class="toggle-container">
+                <a id="light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Modeling and simulation in helioseismology</h1>
+    <p class="post-meta">June 1, 2019</p>
+    <p class="post-tags">
+      <a href="/public/focus/2019"> <i class="fas fa-calendar fa-sm"></i> 2019 </a>
+        ·  
+        <a href="/public/focus/tag/numerics">
+          <i class="fas fa-hashtag fa-sm"></i> numerics</a>  
+          <a href="/public/focus/tag/energy">
+          <i class="fas fa-hashtag fa-sm"></i> energy</a>  
+          
+        ·  
+        <a href="/public/focus/category/numerical-scheme">
+          <i class="fas fa-tag fa-sm"></i> numerical-scheme</a>  
+          <a href="/public/focus/category/energy">
+          <i class="fas fa-tag fa-sm"></i> energy</a>  
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    
+
+  </article>
+  <h2>References</h2>
+  <div class="publications">
+    <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">RR</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="chabassier:hal-01833043" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Solving time-harmonic Galbrun’s equation with an arbitrary flow. Application to Helioseismology</div>
+          <!-- Author -->
+          <div class="author">
+                  <em>Chabassier, Juliette</em>, and <a href="https://www.math.u-bordeaux.fr/~durufle/index.php" target="_blank" rel="noopener noreferrer">Duruflé, Marc</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Research Report</em> Jul 2018
+          </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="https://hal.inria.fr/hal-01833043" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">URL</a>
+            <a href="https://hal.inria.fr/hal-01833043/file/RR-9192.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">RR</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="chabassier:hal-01295077" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">High Order Finite Element Method for solving Convected Helmholtz equation in radial and axisymmetric domains. Application to Helioseismology</div>
+          <!-- Author -->
+          <div class="author">
+                  <em>Chabassier, Juliette</em>, and <a href="https://www.math.u-bordeaux.fr/~durufle/index.php" target="_blank" rel="noopener noreferrer">Duruflé, Marc</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Research Report</em> Mar 2016
+          </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="https://hal.inria.fr/hal-01295077" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">URL</a>
+            <a href="https://hal.inria.fr/hal-01295077/file/RR-8893.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">AMC</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="chabassier:hal-02320521" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Equivalent boundary conditions for acoustic media with exponential densities. Application to the atmosphere in helioseismology</div>
+          <!-- Author -->
+          <div class="author">
+                  <em>Chabassier, Juliette</em>, <a href="https://www.math.u-bordeaux.fr/~durufle/index.php" target="_blank" rel="noopener noreferrer">Duruflé, Marc</a>, and <a href="https://lma-umr5142.univ-pau.fr/fr/organisation/membres/cv_-vperon-fr.html" target="_blank" rel="noopener noreferrer">Péron, Victor</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Applied Mathematics and Computation</em> Nov 2019
+          </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://hal.inria.fr/hal-02320521" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">URL</a>
+            <a href="http://doi.org/10.1016/j.amc.2019.04.065" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">DOI</a>
+            <a href="https://hal.inria.fr/hal-02320521/file/ChDuPe19.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>We present equivalent boundary conditions and asymptotic models for the solution
+  of a transmission problem set in a domain which represents the sun and its atmosphere.
+  This problem models the propagation of an acoustic wave in time-harmonic regime.
+  The specific non-standard feature of this problem lies in the presence of a small
+  parameter δwhich represents the inverse rate of the exponential decay of the density
+  in the atmosphere. This problem is well suited for the notion of equivalent conditions
+  and the effect of the atmosphere on the sun is as a first approximation local.
+  This approach leads to solve only equations set in the sun. We derive rigorously
+  equivalent conditions up to the fourth order of approximation with respect to δfor the exact solution. The construction of equivalent conditions is based on a multiscale
+expansion in power series of δfor u. Numerical simulations illustrate the theoretical results.
+ Finally we measure the boundary layer phenomenon by introducing a characteristic
+ length that turns out to depend on the mean curvature of the interface between the subdomains.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">AA</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="fournier:hal-01622697" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Atmospheric radiation boundary conditions for high frequency waves in time-distance helioseismology</div>
+          <!-- Author -->
+          <div class="author">Fournier, Damien, Leguèbe, Michaël, Hanson, Chris S., <a href="http://www2.mps.mpg.de/homes/gizon/" target="_blank" rel="noopener noreferrer">Gizon, Laurent</a>, <a href="https://team.inria.fr/makutu/team-members/helene-barucq/" target="_blank" rel="noopener noreferrer">Barucq, Hélène</a>, 
+                  <em>Chabassier, Juliette</em>, and <a href="https://www.math.u-bordeaux.fr/~durufle/index.php" target="_blank" rel="noopener noreferrer">Duruflé, Marc</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Astronomy and Astrophysics - A\&amp;A</em> Nov 2017
+          </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://hal.archives-ouvertes.fr/hal-01622697" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">URL</a>
+            <a href="http://doi.org/10.1051/0004-6361/201731283" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">DOI</a>
+            <a href="https://hal.archives-ouvertes.fr/hal-01622697v2/file/2017-AA-Atmo.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The temporal covariance between seismic waves measured at two locations on the solar surface is the fundamental observable in time-distance helioseismology. Above the acoustic cut-off frequency ( 5.3 mHz), waves are not trapped in the solar interior and the covariance function can be used to probe the upper atmosphere. We wish to implement appropriate radiative boundary conditions for computing the propagation of high-frequency waves in the solar atmosphere. We consider recently developed and published radiative boundary conditions for atmospheres in which sound-speed is constant and density decreases exponentially with radius. We compute the cross-covariance function using a finite element method in spherical geometry and in the frequency domain. The ratio between first- and second-skip amplitudes in the time-distance diagram is used as a diagnostic to compare boundary conditions and to compare with observations. We find that a boundary condition applied 500 km above the photosphere and derived under the approximation of small angles of incidence accurately reproduces the “infinite atmosphere” solution for high-frequency waves. When the radiative boundary condition is applied 2 Mm above the photosphere, we find that the choice of atmospheric model affects the time-distance diagram. In particular, the time-distance diagram exhibits double-ridge structure when using a Vernazza Avrett Loeser atmospheric model.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">M2AN</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="barucq:hal-01581834" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Atmospheric Radiation Boundary Conditions for the Helmholtz Equation</div>
+          <!-- Author -->
+          <div class="author">
+<a href="https://team.inria.fr/makutu/team-members/helene-barucq/" target="_blank" rel="noopener noreferrer">Barucq, Hélène</a>, 
+                  <em>Chabassier, Juliette</em>, <a href="https://www.math.u-bordeaux.fr/~durufle/index.php" target="_blank" rel="noopener noreferrer">Duruflé, Marc</a>, <a href="http://www2.mps.mpg.de/homes/gizon/" target="_blank" rel="noopener noreferrer">Gizon, Laurent</a>, and <a href="https://people.bordeaux.inria.fr/michael.leguebe/index.html" target="_blank" rel="noopener noreferrer">Leguèbe, Michael</a>
+                  
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>ESAIM: Mathematical Modelling and Numerical Analysis</em> Jun 2018
+          </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://hal.inria.fr/hal-01581834" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">URL</a>
+            <a href="http://doi.org/10.1051/m2an/2017059" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">DOI</a>
+            <a href="https://hal.inria.fr/hal-01581834v2/file/SubARBC_Final.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>This work offers some contributions to the numerical study of acoustic waves propagating in the Sun and its atmosphere. The main goal is to provide boundary conditions for outgoing waves in the solar atmosphere where it is assumed that the sound speed is constant and the density decays exponentially with radius. Outgoing waves are governed by a Dirichlet-to-Neumann map which is obtained from the factorization of the Helmholtz equation expressed in spherical coordinates. For the purpose of extending the outgoing wave equation to axisymmetric or 3D cases, different approximations are implemented by using the frequency and/or the angle of incidence as parameters of interest. This results in boundary conditions called atmospheric radiation boundary conditions (ARBC) which are tested in ideal and realistic configurations. These ARBCs deliver accurate results and reduce the computational burden by a factor of two in helioseismology applications.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">AA</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="gizon:hal-01403332" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Computational helioseismology in the frequency domain: acoustic waves in axisymmetric solar models with flows</div>
+          <!-- Author -->
+          <div class="author">
+<a href="http://www2.mps.mpg.de/homes/gizon/" target="_blank" rel="noopener noreferrer">Gizon, Laurent</a>, <a href="https://team.inria.fr/makutu/team-members/helene-barucq/" target="_blank" rel="noopener noreferrer">Barucq, Hélène</a>, <a href="https://www.math.u-bordeaux.fr/~durufle/index.php" target="_blank" rel="noopener noreferrer">Duruflé, Marc</a>, Hanson, Chris, <a href="https://people.bordeaux.inria.fr/michael.leguebe/index.html" target="_blank" rel="noopener noreferrer">Leguèbe, Michael</a>, Birch, Aaron, 
+                  <em>Chabassier, Juliette</em>, Fournier, Damien, Hohage, Thorsten, and Papini, Emanuele
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Astronomy and Astrophysics - A\&amp;A</em> Apr 2017
+          </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://hal.archives-ouvertes.fr/hal-01403332" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">URL</a>
+            <a href="http://doi.org/10.1051/0004-6361/201629470" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">DOI</a>
+            <a href="https://hal.archives-ouvertes.fr/hal-01403332/file/main-all-v2.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Context. Local helioseismology has so far relied on semi-analytical methods to compute the spatial sensitivity of wave travel times to perturbations in the solar interior. These methods are cumbersome and lack flexibility.
+Aims. Here we propose a convenient framework for numerically solving the forward problem of time-distance helioseismology in the frequency domain. The fundamental quantity to be computed is the cross-covariance of the seismic wavefield.
+Methods. We choose sources of wave excitation that enable us to relate the cross-covariance of the oscillations to the Green’s function in a straightforward manner. We illustrate the method by considering the 3D acoustic wave equation in an axisymmetric reference solar model, ignoring the effects of gravity on the waves. The symmetry of the background model around the rotation axis implies that the Green’s function can be written as a sum of longitudinal Fourier modes, leading to a set of independent 2D problems. We use a high-order finite-element method to solve the 2D wave equation in frequency space. The computation is embarrassingly parallel, with each frequency and each azimuthal order solved independently on a computer cluster.
+Results. We compute travel-time sensitivity kernels in spherical geometry for flows, sound speed, and density perturbations under the first Born approximation. Convergence tests show that travel times can be computed with a numerical precision better than one millisecond, as required by the most precise travel-time measurements.
+Conclusions. The method presented here is computationally efficient and will be used to interpret travel-time measurements in order to infer, e.g., the large-scale meridional flow in the solar convection zone. It allows the implementation of (full-waveform) iterative inversions, whereby the axisymmetric background model is updated at each iteration.</p>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+  </div>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2023 Juliette  Chabassier. Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Deployed by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
+Last updated: December 20, 2023.
+      </div>
+    </footer>
+  </body>
+
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+  <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  <!-- Mansory & imagesLoaded -->
+  <script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/public/assets/js/mansory.js" type="text/javascript"></script>
+  
+  <!-- Medium Zoom JS -->
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+  <script src="/public/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script src="/public/assets/js/common.js"></script>
+
+  <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+  
+</html>
+
