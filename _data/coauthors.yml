@@ -77,3 +77,13 @@
 "Boutin":
   - firstname: ["Henri","H."]
     url: https://www.ircam.fr/person/henri-boutin/
+
+"Fisette":
+  - firstname: ["Paul", "P."]
+    url: https://www.robotran.be/people/paul-fisette/
+
+"Castera":
+  - firstname: ["Guillaume","G."]
+    url: https://inria.hal.science/search/index/q/*/authIdHal_s/guillaume-castera 
+
+    
